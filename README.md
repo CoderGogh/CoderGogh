@@ -25,7 +25,7 @@
 
 ---
 
-# 🚀 Core Skills
+# 🚀 Technical Stack
 
 <table>
   <tr>
@@ -70,14 +70,19 @@
 - **Impact:** Provided real-time, optimized charging station data through spatial data processing.
 - **Tech:** ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 - **Detail:** Reduced API latency and overhead by implementing **PostGIS spatial queries** and a **3-tier caching strategy**.
-- [🔗 GitHub Repository (Front-End)](https://github.com/CoderGogh/Eon-FrontEnd-Server) / [🔗 GitHub Repository (Back-End)](https://github.com/CoderGogh/Eon-BackEnd-Server)
+- [🔗 GitHub Repository (Front-End)](https://github.com/CoderGogh/Eon-FrontEnd-Server)  /  [🔗 GitHub Repository (Back-End)](https://github.com/CoderGogh/Eon-BackEnd-Server)
 
 ---
 
 ## 📊 GitHub Stats
 
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
+<p align="left">
+  <a href="mailto:haram1021@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="하람님의_블로그_링크">
+    <img src="https://img.shields.io/badge/Tistory-000000?style=flat-square&logo=tistory&logoColor=white" alt="Blog" />
+  </a>
 </p>
 
 ---
