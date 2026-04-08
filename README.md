@@ -86,7 +86,7 @@
 - **Impact:** Provided real-time, optimized charging station data through spatial data processing.
 - **Tech:** ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens&logoColor=white) ![Poetry](https://img.shields.io/badge/Poetry-60A5FA?style=flat-square&logo=python) ![Alembic](https://img.shields.io/badge/Alembic-DBAB09?style=flat-square&logo=python)
 - **Detail:** Reduced API latency and overhead by implementing **PostGIS spatial queries** and a **3-tier caching strategy**.
-- 🔗[EON(Front-End)](https://github.com/CoderGogh/Eon-FrontEnd-Server) / 🔗[EON(Back-End)](https://github.com/CoderGogh/Eon-BackEnd-Server)
+- 🔗[EON(Front-End)](https://github.com/CoderGogh/Eon-FrontEnd-Server) & 🔗[EON(Back-End)](https://github.com/CoderGogh/Eon-BackEnd-Server)
 
 ---
 
