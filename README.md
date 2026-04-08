@@ -84,15 +84,6 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=CoderGogh&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="CoderGogh Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CoderGogh&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</p>
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=radical&hide_border=true" alt="Activity Graph" />
-</p>
-
-<p align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
 </p>
 
