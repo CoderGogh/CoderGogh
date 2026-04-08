@@ -2,9 +2,9 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=200&section=header&text=CoderGogh&fontSize=50&fontColor=ffffff"/>
 </p>
 
-<!-- Sub Header (안정 버전) -->
+<!-- Sub Header (FIXED) -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=60&section=header&text=Backend%20Engineer%20%26%20Scalable%20Systems&fontSize=20&fontColor=58A6FF"/>
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0D1117&height=60&section=header&text=Backend%20Engineer%20%26%20Scalable%20Systems&fontSize=20&fontColor=58A6FF"/>
 </p>
 
 <!-- Typing Animation -->
