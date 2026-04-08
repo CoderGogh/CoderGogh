@@ -27,19 +27,38 @@
 <table>
   <tr>
     <td><b>Backend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=java,spring,hibernate,kafka,security&theme=light" /></td>
+    <td>
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" />
+      <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white" />
+      <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white" />
+      <img src="https://img.shields.io/badge/Security-Spring-6DB33F?style=flat&logo=springsecurity&logoColor=white" />
+    </td>
   </tr>
   <tr>
     <td><b>Storage</b></td>
-    <td><img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,elasticsearch&theme=light" /></td>
+    <td>
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" />
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" />
+      <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white" />
+    </td>
   </tr>
   <tr>
     <td><b>Infra</b></td>
-    <td><img src="https://skillicons.dev/icons?i=docker,aws,gcp&theme=light" /></td>
+    <td>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" />
+      <img src="https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white" />
+    </td>
   </tr>
   <tr>
     <td><b>AI/ML</b></td>
-    <td><img src="https://skillicons.dev/icons?i=python,pytorch&theme=light" /></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
+    </td>
   </tr>
 </table>
 
