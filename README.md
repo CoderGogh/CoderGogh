@@ -5,12 +5,17 @@ Backend Engineer | Scalable Systems | Kafka & Data Pipeline
 </h3>
 
 <p align="center">
-  <b>Building Scalable Backend Systems</b><br/>
-  <b>Specialized in Large-scale Data Processing</b><br/>
-  <b>Interested in Distributed Systems & Search Architecture</b><br/><br/>
 
-  <!-- Only this line is dynamic -->
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Kafka+%2B+Batch+Processing;ElasticSearch+%2B+AI+Systems;Data+Pipeline+Engineering&center=true&width=500&height=45">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Kafka+%2B+Batch+Processing&center=true&width=500&height=30&duration=2000&pause=100000&color=58A6FF">
+
+  <br/>
+
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=ElasticSearch+%2B+AI+Systems&center=true&width=500&height=30&startDelay=2000&duration=2000&pause=100000&color=58A6FF">
+
+  <br/>
+
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Data+Pipeline+Engineering&center=true&width=500&height=30&startDelay=4000&duration=2000&pause=100000&color=58A6FF">
+
 </p>
 
 ---
