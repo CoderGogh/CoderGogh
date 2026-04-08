@@ -1,6 +1,8 @@
 <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=200&section=header&text=CoderGogh&fontSize=50&fontColor=ffffff"/> </p>
 
-<p align="center"> <img src="https://readme-typing-svg.herokuapp.com/?lines=Kafka+%2B+Batch+Processing;%20;ElasticSearch+%2B+AI+Systems;%20;Data+Pipeline+Engineering&center=true&width=500&height=160&duration=2000&pause=800&color=58A6FF&vCenter=true&multiline=true"> </p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Kafka+%2B+Batch+Processing;%20;ElasticSearch+%2B+AI+Systems;%20;Data+Pipeline+Engineering&center=true&width=500&height=160&duration=1200&pause=500&color=58A6FF&vCenter=true&multiline=true">
+</p>
 
 <p align="center">
   💡 <i>I focus on <b>Data Integrity</b>, <b>Distributed Systems</b>, and <b>High-Efficiency Architecture</b>.</i>
