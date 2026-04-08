@@ -2,14 +2,8 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=200&section=header&text=CoderGogh&fontSize=50&fontColor=ffffff"/>
 </p>
 
-<!-- FIXED SUB HEADER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0D1117&height=90&section=header&text=Backend%20Engineer%20%26%20Data%20Systems&fontSize=22&fontColor=58A6FF"/>
-</p>
-
-<!-- Typing Animation -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Kafka+%2B+Batch+Processing;%20;ElasticSearch+%2B+AI+Systems;%20;Data+Pipeline+Engineering&center=true&width=500&height=160&duration=2000&pause=800&color=58A6FF&vCenter=true&multiline=true">
+  <img src="https://readme-typing-svg.herokuapp.com/?size=22&center=true&vCenter=true&width=600&height=120&color=58A6FF&lines=Backend+Engineer+%26+Data+Systems;.;Kafka+%2B+Batch+Processing;.;ElasticSearch+%2B+AI+Systems;.;Data+Pipeline+Engineering">
 </p>
 
 ---
