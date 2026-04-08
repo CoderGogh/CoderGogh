@@ -3,18 +3,16 @@
 <!-- Typing Animation --> 
 <p align="center"> <img src="https://readme-typing-svg.herokuapp.com/?lines=Kafka+%2B+Batch+Processing;%20;ElasticSearch+%2B+AI+Systems;%20;Data+Pipeline+Engineering&center=true&width=500&height=160&duration=2000&pause=800&color=58A6FF&vCenter=true&multiline=true"> </p>
 
-
+<p align="center">
+  💡 <i>I focus on <b>Data Integrity</b>, <b>Distributed Systems</b>, and <b>High-Efficiency Architecture</b>.</i>
+</p>
 ---
 
 # 🧑‍💻 About Me
 
-<p>
-🚀 <b>Backend Engineer specialized in scalable and data-intensive systems</b>  
-
-<br/>
-
 <p align="center">
-  <b>"비즈니스 로직의 이해를 바탕으로 고성능 백엔드 아키텍처를 설계합니다."</b>
+  🚀 <b>Backend Engineer specialized in scalable and data-intensive systems</b><br/>
+  <b>"Engineering robust backend solutions that align business logic with system performance."</b>
 </p>
 
 | Category | Key Achievements & Focus | Stack |
@@ -22,13 +20,8 @@
 | **Scalability** | **5M+ Transactions** 대용량 정산 및 비동기 메시징 시스템 구축 | ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) |
 | **Data Engine** | AI 활용 상담 요약 및 **ElasticSearch** 기반 실시간 분석 파이프라인 | ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) |
 | **Optimization** | **PostGIS** 공간 쿼리 및 3-Tier 캐싱으로 API 부하 70% 절감 | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
-| **Philosophy** | **Data Integrity**, **Distributed Systems**, **High-Efficiency Architecture** | ![Quality](https://img.shields.io/badge/Architecture-Efficiency-58A6FF?style=flat-square) |
+| **Philosophy** | **Data Integrity**, **Distributed Systems**, **High-Efficiency** | ![Quality](https://img.shields.io/badge/Architecture-Efficiency-58A6FF?style=flat-square) |
 
----
----
-
-💡 I focus on <b>Data Integrity, Distributed Systems, and High-Efficiency Architecture</b>
-</p>
 
 ---
 
