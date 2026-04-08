@@ -93,5 +93,5 @@
 
 ## 📫 Contact
 
-- **Email:** [haram1021@gmail.com]
+- **Email:** [🔗 Gmail](haram1021@gmail.com)
 - **Blog:** [실제_블로그_링크로_수정]
