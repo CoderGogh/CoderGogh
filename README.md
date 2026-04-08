@@ -13,18 +13,15 @@
 
 # 🧑‍💻 About Me
 
-<p align="center">
-  🚀 <b>Backend Engineer specialized in scalable and data-intensive systems</b><br/>
-  <b>"Engineering robust backend solutions that align business logic with system performance."</b>
-</p>
+> ### 🚀 **Backend Engineer** specialized in scalable and data-intensive systems
+> **"Engineering robust backend solutions that align business logic with system performance."**
 
 | Category | Key Achievements & Focus | Stack |
 | :--- | :--- | :--- |
-| **Scalability** | **5M+ Transactions** 대용량 정산 및 비동기 메시징 시스템 구축 | ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) |
-| **Data Engine** | AI 활용 상담 요약 및 **ElasticSearch** 기반 실시간 분석 파이프라인 | ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) |
-| **Optimization** | **PostGIS** 공간 쿼리 및 3-Tier 캐싱으로 API 부하 70% 절감 | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
-| **Philosophy** | **Data Integrity**, **Distributed Systems**, **High-Efficiency** | ![Quality](https://img.shields.io/badge/Architecture-Efficiency-58A6FF?style=flat-square) |
-
+| **Scalability** | Built asynchronous messaging & settlement systems for **5M+ Transactions** | ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) |
+| **Data Engine** | Designed real-time analytics pipelines with AI-driven **ElasticSearch** indexing | ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) |
+| **Optimization** | Reduced API load by **70%** via **PostGIS** spatial queries & 3-Tier caching | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
+| **Philosophy** | **Data Integrity**, **Distributed Systems**, **High-Efficiency Architecture** | ![Quality](https://img.shields.io/badge/Architecture-Efficiency-58A6FF?style=flat-square) |
 
 ---
 
