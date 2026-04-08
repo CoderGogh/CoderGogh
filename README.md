@@ -93,24 +93,17 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-stats-alpha.vercel.app/api?username=CoderGogh&cc=22272e&tc=79c0ff&ic=79c0ff&bc=00000000" alt="GitHub Stats" height="170" />
+  <img src="https://github-stats-alpha.vercel.app/api?username=CoderGogh&cc=22272e&tc=79c0ff&ic=79c0ff&bc=00000000" alt="GitHub Stats" height="165" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CoderGogh&theme=tokyo-night&hide_border=true" alt="GitHub Streak" height="170" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CoderGogh&theme=tokyo-night&hide_border=true" alt="GitHub Streak" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
-</p>
-
-<p align="center">
-  <img src="https://metrics.lecoq.io/CoderGogh?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&languages=1&languages.sections=most-used&languages.limit=8&config.timezone=Asia%2FSeoul" alt="GitHub Metrics" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CoderGogh&theme=tokyo-night&hide_border=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CoderGogh&layout=compact&theme=tokyo-night&hide_border=true" width="45%" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=tokyo-night&hide_border=true" height="170" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=tokyo-night&hide_border=true" width="50%" />
 </p>
+
 
 ---
 
