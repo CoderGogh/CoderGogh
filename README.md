@@ -15,7 +15,7 @@
 > ### 🚀 **Backend Engineer** specialized in scalable and data-intensive systems
 > **"Engineering robust backend solutions that align business logic with system performance."**
 
-| Category | Key Achievements & Focus | Stack |
+| Category | Key Achievements & Focus | Main Stack |
 | :--- | :--- | :--- |
 | **Scalability** | Built asynchronous messaging & settlement systems for **5M+ Transactions** | ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) |
 | **Data Engine** | Designed real-time analytics pipelines with AI-driven **ElasticSearch** indexing | ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) |
@@ -53,7 +53,7 @@
 - **Impact:** Successfully processed **1M users** and **5M+ transactions** via high-traffic settlement system.
 - **Tech:** ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) ![Spring Batch](https://img.shields.io/badge/Spring_Batch-6DB33F?style=flat-square&logo=spring) ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
 - **Detail:** Optimized asynchronous messaging and ensured data integrity using **Spring Batch Meta-data** and fault-tolerant design.
-- [🔗 GitHub Repository](https://github.com/CoderGogh/async-settlement-system)
+- 🔗[GitHub Repository](https://github.com/CoderGogh/async-settlement-system)
 
 ---
 
@@ -61,7 +61,7 @@
 - **Impact:** Automated semantic analysis and real-time reporting for large-scale consultation logs.
 - **Tech:** ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Flyway](https://img.shields.io/badge/Flyway-CC0000?style=flat-square&logo=flyway&logoColor=white)
 - **Detail:** Enhanced search performance via **Data Denormalization** in MongoDB and customized **Elasticsearch tokenizers**.
-- [🔗 GitHub Repository](https://github.com/4Ureca)
+- 🔗[GitHub Repository](https://github.com/4Ureca)
 
 ---
 
@@ -69,7 +69,7 @@
 - **Impact:** Provided real-time, optimized charging station data through spatial data processing.
 - **Tech:** ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens&logoColor=white) ![Poetry](https://img.shields.io/badge/Poetry-60A5FA?style=flat-square&logo=python) ![Alembic](https://img.shields.io/badge/Alembic-DBAB09?style=flat-square&logo=python)
 - **Detail:** Reduced API latency and overhead by implementing **PostGIS spatial queries** and a **3-tier caching strategy**.
-- [🔗 GitHub Repository (Front-End)](https://github.com/CoderGogh/Eon-FrontEnd-Server) / [🔗 GitHub Repository (Back-End)](https://github.com/CoderGogh/Eon-BackEnd-Server)
+- 🔗[GitHub Repository (Front-End)](https://github.com/CoderGogh/Eon-FrontEnd-Server) / [🔗 GitHub Repository (Back-End)](https://github.com/CoderGogh/Eon-BackEnd-Server)
 
 ---
 
