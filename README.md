@@ -93,10 +93,9 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CoderGogh&show_icons=true&theme=tokyo-night&hide_border=true" alt="Overall Stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CoderGogh&layout=compact&theme=tokyo-night&hide_border=true" alt="Top Languages" />
+  <img src="https://github-stats-alpha.vercel.app/api?username=CoderGogh&cc=22272e&tc=79c0ff&ic=79c0ff&bc=00000000" alt="GitHub Stats" />
 </p>
+
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=CoderGogh&theme=tokyo-night&hide_border=true" alt="GitHub Streak" />
