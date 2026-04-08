@@ -1,14 +1,8 @@
-<p align="center"> 
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=58A6FF&height=200&section=header&text=CoderGogh&fontSize=50&fontColor=ffffff"/> 
-</p>
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=200&section=header&text=CoderGogh&fontSize=50&fontColor=ffffff"/> </p>
 
-<p align="center"> 
-  <img src="https://capsule-render.vercel.app/render?type=rounded&color=0D1117&height=90&section=header&text=Backend%20Engineer%20%7C%20Data%20Systems%20%7C%20AI%20Integrator&fontSize=22&fontColor=58A6FF"/> 
-</p>
+<!-- Typing Animation --> 
+<p align="center"> <img src="https://readme-typing-svg.herokuapp.com/?lines=Kafka+%2B+Batch+Processing;%20;ElasticSearch+%2B+AI+Systems;%20;Data+Pipeline+Engineering&center=true&width=500&height=160&duration=2000&pause=800&color=58A6FF&vCenter=true&multiline=true"> </p>
 
-<p align="center"> 
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Kafka+%2B+High-Traffic+Systems;Spring+Batch+Expert;ElasticSearch+%2B+AI+Architecture;Data+Pipeline+Optimization&center=true&width=600&height=50&duration=3000&pause=1000&color=58A6FF&vCenter=true&size=25"> 
-</p>
 
 ---
 
