@@ -4,7 +4,7 @@
 
 <!-- FIXED SUB HEADER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0D1117&height=100&section=header&text=Backend%20Engineer%20%26%20Scalable%20Systems&fontSize=22&fontColor=58A6FF"/>
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0D1117&height=90&section=header&text=Backend%20Engineer%20%26%20Data%20Systems&fontSize=22&fontColor=58A6FF"/>
 </p>
 
 <!-- Typing Animation -->
