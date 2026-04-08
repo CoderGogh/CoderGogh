@@ -102,6 +102,16 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
 </p>
 
+<p align="center">
+  <img src="https://metrics.lecoq.io/CoderGogh?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&languages=1&languages.sections=most-used&languages.limit=8&config.timezone=Asia%2FSeoul" alt="GitHub Metrics" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CoderGogh&theme=tokyo-night&hide_border=true" height="170" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=tokyo-night&hide_border=true" height="170" />
+</p>
+
 ---
 
 ## 📫 Connect with Me
