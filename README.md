@@ -1,6 +1,5 @@
-<!-- Gradient Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:58A6FF&height=220&section=header&text=CoderGogh&fontSize=45&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%7C%20Scalable%20Systems%20%7C%20Kafka%20%26%20Data%20Pipeline&descAlignY=60&descAlign=50"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:58A6FF&height=220&section=header&text=CoderGogh&fontSize=50&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%26%20Scalable%20Systems&descAlignY=60&descAlign=50"/>
 </p>
 
 <!-- Typing Animation -->
