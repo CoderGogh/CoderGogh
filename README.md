@@ -101,11 +101,3 @@
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
 </p>
-
----
-
-## 📫 Connect with Me
-
-* **Email** :&nbsp;&nbsp; <a href="mailto:haram1021@gmail.com"><img src="https://img.shields.io/badge/haram1021@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
-* **Blog** &nbsp;&nbsp;:&nbsp;&nbsp; <a href="실제_블로그_링크"><img src="https://img.shields.io/badge/Tech_Blog-000000?style=flat-square&logo=tistory&logoColor=white" alt="Blog" /></a>
-* **SNS** &nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="https://www.instagram.com/ha0__ram"><img src="https://img.shields.io/badge/@ha0__ram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
