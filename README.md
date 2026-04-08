@@ -102,6 +102,11 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
 </p>
 
+<p align="center">
+  <img src="https://github-stats.com/api?username=CoderGogh&show_icons=true&theme=tokyo-night" alt="GitHub Stats" height="180" />
+  &nbsp;&nbsp;
+  <img src="https://github-stats.com/api/top-langs?username=CoderGogh&layout=compact&theme=tokyo-night" alt="Top Languages" height="180" />
+</p>
 
 ---
 
