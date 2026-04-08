@@ -13,23 +13,18 @@
 
 <br/>
 
-🔹 <b>Large-scale Batch & Messaging</b>  
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://skillicons.dev/icons?i=spring,kafka,java&theme=light" height="25"/>  
-&nbsp;&nbsp;&nbsp;&nbsp;→ <b>5M+ Transactions</b> 정산 시스템 구축 (Fault-tolerant 및 Retry 로직 설계)
+<p align="center">
+  <b>"비즈니스 로직의 이해를 바탕으로 고성능 백엔드 아키텍처를 설계합니다."</b>
+</p>
 
-<br/>
+| Category | Key Achievements & Focus | Stack |
+| :--- | :--- | :--- |
+| **Scalability** | **5M+ Transactions** 대용량 정산 및 비동기 메시징 시스템 구축 | `Spring Batch`, `Kafka` |
+| **Data Engine** | AI 활용 상담 요약 및 **ElasticSearch** 기반 실시간 분석 파이프라인 | `ES`, `MongoDB`, `AI` |
+| **Optimization** | **PostGIS** 공간 쿼리 및 3-Tier 캐싱으로 API 부하 70% 절감 | `FastAPI`, `Redis` |
+| **Philosophy** | **Data Integrity**, **Distributed Systems**, **High-Efficiency Architecture** | `Quality` |
 
-🔹 <b>AI-powered Analytics & Search</b>  
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://skillicons.dev/icons?i=elasticsearch,mongodb,python&theme=light" height="25"/>  
-&nbsp;&nbsp;&nbsp;&nbsp;→ AI API 기반 <b>상담 자동 요약</b> 및 ES를 활용한 실시간 대화 분석 파이프라인
-
-<br/>
-
-🔹 <b>GIS & High-Performance Caching</b>  
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://skillicons.dev/icons?i=postgres,redis,python&theme=light" height="25"/>  
-&nbsp;&nbsp;&nbsp;&nbsp;→ <b>PostGIS</b> 공간 필터링 및 Redis 3-Tier 캐싱으로 외부 API 부하 70% 감소
-
-<br/>
+---
 
 💡 I focus on <b>Data Integrity, Distributed Systems, and High-Efficiency Architecture</b>
 </p>
