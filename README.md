@@ -92,10 +92,16 @@
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-stats-alpha.vercel.app/api?username=CoderGogh&cc=22272e&tc=79c0ff&ic=79c0ff&bc=00000000" alt="GitHub Stats" height="170" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CoderGogh&background=22272e&currStreakNum=79c0ff&sideNums=79c0ff&sideLabels=79c0ff&dates=79c0ff&fire=79c0ff&stroke=00000000&hide_border=true" alt="GitHub Streak" height="170" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="https://github-stats-alpha.vercel.app/api?username=CoderGogh&cc=22272e&tc=79c0ff&ic=79c0ff&bc=00000000" alt="GitHub Stats" height="170" />
+    </td>
+    <td align="center" style="border: none;">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=CoderGogh&background=22272e&currStreakNum=79c0ff&sideNums=79c0ff&sideLabels=79c0ff&dates=79c0ff&fire=79c0ff&stroke=00000000&hide_border=true" alt="GitHub Streak" height="170" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
