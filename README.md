@@ -89,6 +89,32 @@
 
 ---
 
+---
+
+## 📊 GitHub Stats & Rankings
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=CoderGogh&show_icons=true&theme=radical&count_private=true&hide_border=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=CoderGogh&show_icons=true&theme=default&count_private=true&hide_border=true">
+    <img alt="CoderGogh's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=CoderGogh&show_icons=true&theme=radical&count_private=true&hide_border=true">
+  </picture>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=CoderGogh&layout=compact&theme=radical&hide_border=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=CoderGogh&layout=compact&theme=default&hide_border=true">
+    <img alt="CoderGogh's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CoderGogh&layout=compact&theme=radical&hide_border=true">
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=radical&hide_border=true" alt="Activity Graph" />
+</p>
+
+---
+
+---
+
 ## 📫 Contact
 
 - **Email:** [실제_이메일로_수정]
