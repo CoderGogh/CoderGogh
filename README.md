@@ -7,6 +7,7 @@ Backend Engineer | Scalable Systems | Kafka & Data Pipeline
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Kafka+%2B+Batch+Processing;%20;ElasticSearch+%2B+AI+Systems;%20;Data+Pipeline+Engineering&center=true&width=500&height=160&duration=2000&pause=800&color=58A6FF&vCenter=true&multiline=true">
 </p>
+
 ---
 
 # 🧑‍💻 About Me
