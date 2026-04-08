@@ -16,21 +16,31 @@
 
 ---
 
-## 🛠️ Tech Stack (Used in Projects)
+# 🚀 Tech Stack
+
+## ⚡ Core Skills
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,kafka,redis,mysql,mongodb,elasticsearch,docker,aws,python,pytorch&perline=6" />
+</p>
+
+---
+
+## 🧩 Detailed Stack
 
 ### 💻 Backend
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot)
 ![Spring Security](https://img.shields.io/badge/SpringSecurity-6DB33F?style=for-the-badge)
 
+### ⚡ Batch & Messaging
+![Spring Batch](https://img.shields.io/badge/SpringBatch-6DB33F?style=for-the-badge)
+![Kafka](https://img.shields.io/badge/Kafka-000000?style=for-the-badge)
+
 ### 🧠 Data & AI
 ![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=for-the-badge)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge)
-
-### ⚡ Batch & Messaging
-![Spring Batch](https://img.shields.io/badge/SpringBatch-6DB33F?style=for-the-badge)
-![Kafka](https://img.shields.io/badge/Kafka-000000?style=for-the-badge)
 
 ### 🗄️ Database / Cache
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge)
@@ -53,51 +63,41 @@
 
 ---
 
-# 🚀 Projects (Summary)
+# 🚀 Projects
 
 ## 🏗️ 대규모 배치 & 메시지 전송 플랫폼
 - 100만 유저 / 500만 건 데이터 정산 처리
 - Spring Batch + Kafka 기반 비동기 구조 설계
-- 재시도 로직 및 Redis 캐싱 적용
+- Redis 캐싱 + 재시도 로직
 
-👉 자세히 보기  
-https://github.com/CoderGogh/Ureca4_BE_batch
+👉 https://github.com/CoderGogh/Ureca4_BE_batch
 
 ---
 
 ## 🤖 고객 상담 분석 & AI 리포트 시스템
-- AI API 기반 상담 요약 및 분석
+- AI 기반 상담 요약 및 분석
 - ElasticSearch 검색 + 키워드 집계
-- MongoDB 역정규화 데이터 구조 설계
+- MongoDB 역정규화 설계
 
-👉 자세히 보기  
-(레포 링크 추가)
+👉 (레포 링크 추가)
 
 ---
 
-## ⚡ 전기차 충전소 통합 시스템
-- 외부 API 호출 최적화 (반경 기반 필터링)
-- PostGIS 활용 공간 데이터 처리
+## ⚡ 전기차 충전소 시스템
+- 외부 API 호출 최적화
+- PostGIS 기반 공간 데이터 처리
 - Redis 캐싱 적용
 
-👉 자세히 보기  
-(레포 링크 추가)
+👉 (레포 링크 추가)
 
 ---
 
-## 🌐 SNS 서비스 (Spring 기반)
+## 🌐 SNS 서비스
 - Spring Security 인증/인가 구현
-- 쿠키 기반 로그인 구조
+- 쿠키 기반 로그인
 - GCS 이미지 저장
 
-👉 자세히 보기  
-https://github.com/CoderGogh/Ureca4_BE_api
-
----
-
-## 🧪 Twitter Clone & NLP 관심 확장
-- 해시태그 기반 검색 한계 경험
-- 이후 자연어 검색(ElasticSearch)으로 확장
+👉 https://github.com/CoderGogh/Ureca4_BE_api
 
 ---
 
