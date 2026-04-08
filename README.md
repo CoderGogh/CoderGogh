@@ -59,23 +59,25 @@
 
 ### 🏗️ Large-scale Batch & Messaging Platform
 - **Impact:** 사용자 100만 명, 사용 이력 500만 건 대용량 배치 처리 성공
-- **Tech:** Spring Batch, Kafka, Redis, MySQL
+- **Tech:** ![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 - **Detail:** 정합성 보장을 위한 Batch Meta 관리 및 비동기 전송 시스템 최적화
 - [🔗 GitHub Repository](https://github.com/CoderGogh/async-settlement-system)
 
+---
+
 ### 🤖 AI-powered Customer Analytics System
 - **Impact:** 텍스트 데이터의 의미론적 분석 및 실시간 집계 리포트 생성
-- **Tech:** Gemini API, Elasticsearch, MongoDB, Spring Boot
+- **Tech:** ![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 - **Detail:** 역정규화 모델링을 통한 읽기 성능 최적화 및 ES 형태소 분석기 커스텀
 - [🔗 GitHub Repository](https://github.com/4Ureca)
 
+---
 
 ### ⚡ EV Charging Information System
 - **Impact:** 공간 데이터 처리를 통한 실시간 충전소 상태 정보 제공
-- **Tech:** FastAPI, PostGIS, Redis, Alembic
+- **Tech:** ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 - **Detail:** 사용자 반경 기반 공간 쿼리 최적화로 응답 속도 개선
-- [🔗 GitHub Repository](https://github.com/CoderGogh/Eon-FrontEnd-Server)
-- [🔗 GitHub Repository](https://github.com/CoderGogh/Eon-BackEnd-Server)
+- [🔗 GitHub Repository (Front-End)](https://github.com/CoderGogh/Eon-FrontEnd-Server) / [🔗 GitHub Repository (Back-End)](https://github.com/CoderGogh/Eon-BackEnd-Server)
 
 ---
 
