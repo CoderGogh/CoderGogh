@@ -91,9 +91,14 @@
 
 <p align="left">
   <a href="mailto:haram1021@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail Badge" />
   </a>
-  <a href="하람님의_블로그_링크">
-    <img src="https://img.shields.io/badge/Tistory-000000?style=flat-square&logo=tistory&logoColor=white" alt="Blog" />
+  
+  <a href="하람님의_Tistory_블로그_링크_주소">
+    <img src="https://img.shields.io/badge/Tistory-000000?style=flat-square&logo=tistory&logoColor=white" alt="Tistory Badge" />
+  </a>
+  
+  <a href="https://www.instagram.com/하람님의_인스타_ID">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram Badge" />
   </a>
 </p>
