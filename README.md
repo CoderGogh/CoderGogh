@@ -1,77 +1,80 @@
 <h1 align="center">Hi 👋, I'm CoderGogh</h1>
-<h3 align="center">Backend Engineer | Scalable Systems | Kafka & Data Pipeline</h3>
 
+<h3 align="center">
+Backend Engineer | Scalable Systems | Kafka & Data Pipeline
+</h3>
+
+<!-- Static + Dynamic Typing -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Large-scale+Batch+Processing;Kafka+%2B+Distributed+Systems;Search+%26+Data+Engineering;AI+Driven+Backend+Development&center=true&width=500&height=50">
+  <b>Building Scalable Backend Systems</b><br/>
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Large-scale+Batch+Processing;Kafka+%2B+Distributed+Systems;Search+%26+Data+Engineering;AI+Driven+Backend+Development&center=true&width=500&height=45">
 </p>
 
 ---
 
-## 🧑‍💻 About Me
+# 🧑‍💻 About Me
 
-I am a backend engineer focused on building **scalable and data-intensive systems**.
+<p>
 
-- Designed a **large-scale batch processing platform** handling millions of records using  
-  → *Spring Batch, Kafka* (`Ureca4_BE_batch`)
+🚀 <b>Backend Engineer specialized in scalable and data-intensive systems</b>  
 
-- Built an **AI-powered analytics system** for unstructured customer conversations  
-  → *ElasticSearch, MongoDB, AI API*  
+<br/>
 
-- Optimized **external API performance** using spatial data processing  
-  → *PostGIS, Redis*  
+🔹 <b>Large-scale Batch Processing Platform</b>  
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=spring,kafka,java&theme=light" height="25"/>  
+&nbsp;&nbsp;&nbsp;&nbsp;→ Designed and implemented a system processing <b>millions of records</b> (`Ureca4_BE_batch`)
 
-- Experienced in **secure backend systems** with authentication and cloud storage  
-  → *Spring Security, GCS* (`Ureca4_BE_api`)
+<br/>
 
-I continuously explore **data pipelines, search systems, and distributed architecture**.
+🔹 <b>AI-powered Customer Analytics System</b>  
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=elasticsearch,mongodb,python&theme=light" height="25"/>  
+&nbsp;&nbsp;&nbsp;&nbsp;→ Built search & analytics pipeline using <b>AI + ElasticSearch</b>
 
----
+<br/>
 
-# 🚀 Tech Stack
+🔹 <b>EV Charging Optimization System</b>  
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=postgres,redis,python&theme=light" height="25"/>  
+&nbsp;&nbsp;&nbsp;&nbsp;→ Reduced external API overhead using <b>spatial filtering & caching</b>
 
-## ⚡ Core Skills (Key Technologies)
+<br/>
 
-<p align="center">
+🔹 <b>Secure SNS Backend System</b>  
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=spring,mysql,googlecloud&theme=light" height="25"/>  
+&nbsp;&nbsp;&nbsp;&nbsp;→ Implemented <b>authentication & cloud-based storage</b> (`Ureca4_BE_api`)
 
-<!-- Backend -->
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white"/>
-<img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=springboot"/>
-<img src="https://img.shields.io/badge/SpringSecurity-6DB33F?style=flat-square"/>
+<br/>
 
-<!-- Batch / Messaging -->
-<img src="https://img.shields.io/badge/SpringBatch-6DB33F?style=flat-square"/>
-<img src="https://img.shields.io/badge/Kafka-000000?style=flat-square&logo=apachekafka"/>
-
-<!-- Data -->
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql"/>
-<img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb"/>
-<img src="https://img.shields.io/badge/ElasticSearch-005571?style=flat-square&logo=elasticsearch"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis"/>
-
-<!-- Infra -->
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker"/>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws"/>
-<img src="https://img.shields.io/badge/GCS-4285F4?style=flat-square&logo=googlecloud"/>
-
-<!-- AI -->
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch"/>
+💡 I focus on <b>Data Pipelines, Distributed Systems, and Search Architecture</b>
 
 </p>
 
 ---
 
-## 🧩 Tech Categories
+# 🚀 Core Skills
 
-- **Backend**: Java, Spring Boot, Spring Security  
-- **Batch Processing**: Spring Batch  
-- **Messaging**: Kafka  
-- **Databases**: MySQL, PostgreSQL  
-- **Search & Analytics**: ElasticSearch  
-- **NoSQL**: MongoDB  
-- **Cache**: Redis  
-- **Infra**: Docker, AWS, GCS  
-- **AI / Data**: PyTorch  
+## ⚡ Backend & Messaging
+<p>
+<img src="https://skillicons.dev/icons?i=java,spring,hibernate,kafka&theme=light" />
+</p>
+
+## 🧠 Data & Storage
+<p>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,elasticsearch&theme=light" />
+</p>
+
+## ⚙️ Infra & DevOps
+<p>
+<img src="https://skillicons.dev/icons?i=docker,aws,gcp&theme=light" />
+</p>
+
+## 🤖 AI / ML
+<p>
+<img src="https://skillicons.dev/icons?i=python,pytorch&theme=light" />
+</p>
 
 ---
 
@@ -88,34 +91,35 @@ I continuously explore **data pipelines, search systems, and distributed archite
 
 ## 🏗️ Large-scale Batch & Messaging Platform
 - Processed **1M users / 5M transactions**
-- Designed **Spring Batch + Kafka** architecture
-- Implemented retry & fault-tolerant processing
+- Spring Batch + Kafka 기반 비동기 아키텍처
+- Retry / Fault-tolerant 설계
 
 👉 https://github.com/CoderGogh/Ureca4_BE_batch
 
 ---
 
 ## 🤖 AI-powered Customer Analytics System
-- AI-based summarization & evaluation
-- ElasticSearch keyword aggregation & search
-- MongoDB denormalized data modeling
+- AI 기반 상담 요약 및 분석
+- ElasticSearch 검색 + 키워드 집계
+- MongoDB 역정규화 데이터 모델링
 
 👉 (Add repo link)
 
 ---
 
 ## ⚡ EV Charging Information System
-- Reduced API calls using **spatial filtering**
-- Applied **PostGIS + Redis caching**
+- 외부 API 호출 최적화
+- PostGIS 기반 공간 데이터 처리
+- Redis 캐싱 적용
 
 👉 (Add repo link)
 
 ---
 
 ## 🌐 SNS Backend System
-- Implemented authentication using Spring Security
-- Cookie-based session handling
-- Cloud storage with GCS
+- Spring Security 기반 인증/인가
+- Cookie 기반 세션 처리
+- GCS 이미지 저장
 
 👉 https://github.com/CoderGogh/Ureca4_BE_api
 
@@ -131,5 +135,5 @@ I continuously explore **data pipelines, search systems, and distributed archite
 
 ## 📫 Contact
 
-- Email: your-email@example.com
+- Email: your-email@example.com  
 - Blog: https://your-blog.com
