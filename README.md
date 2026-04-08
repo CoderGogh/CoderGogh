@@ -76,13 +76,10 @@
 
 ## 📊 GitHub Stats
 
-<p align="left">
-  <a href="mailto:haram1021@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="하람님의_블로그_링크">
-    <img src="https://img.shields.io/badge/Tistory-000000?style=flat-square&logo=tistory&logoColor=white" alt="Blog" />
-  </a>
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
+
 </p>
 
 ---
@@ -91,3 +88,12 @@
 
 - **Email:** [🔗 Gmail](haram1021@gmail.com)
 - **Blog:** [실제_블로그_링크로_수정]
+
+<p align="left">
+  <a href="mailto:haram1021@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="하람님의_블로그_링크">
+    <img src="https://img.shields.io/badge/Tistory-000000?style=flat-square&logo=tistory&logoColor=white" alt="Blog" />
+  </a>
+</p>
