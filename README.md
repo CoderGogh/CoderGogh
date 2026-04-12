@@ -108,3 +108,5 @@
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
 </p>
+
+![Metrics](./github-metrics.svg)
