@@ -108,3 +108,6 @@
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=CoderGogh&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
 </p>
+
+![Stats](https://github-readme-stats.vercel.app/api?username=CoderGogh&show_icons=true&theme=tokyo-night)
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CoderGogh&layout=compact&theme=tokyo-night)
