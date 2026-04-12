@@ -1,0 +1,16 @@
+name: Metrics
+on:
+  schedule: [{cron: "0 0 * * *"}] # 매일 자정에 업데이트
+  workflow_dispatch: # 수동 실행 가능
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: CoderGogh
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: Asia/Seoul
+          theme: tokyo-night
