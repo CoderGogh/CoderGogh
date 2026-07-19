@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="160" viewBox="0 0 500 160">
+  <defs>
+    <clipPath id="clip1">
+      <rect x="154" y="29" width="0" height="32">
+        <animate attributeName="width" values="0;192;192;0;0" keyTimes="0.0;0.074074;0.87037;0.944444;1.0" dur="5.400s" begin="0s" repeatCount="indefinite" calcMode="linear" />
+      </rect>
+    </clipPath>
+    <clipPath id="clip2">
+      <rect x="130" y="69" width="0" height="32">
+        <animate attributeName="width" values="0;0;240;240;0;0" keyTimes="0.0;0.240741;0.314815;0.796296;0.87037;1.0" dur="5.400s" begin="0s" repeatCount="indefinite" calcMode="linear" />
+      </rect>
+    </clipPath>
+    <clipPath id="clip3">
+      <rect x="70" y="109" width="0" height="32">
+        <animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0.0;0.481481;0.555556;0.722222;0.796296;1.0" dur="5.400s" begin="0s" repeatCount="indefinite" calcMode="linear" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g font-family="&quot;SFMono-Regular&quot;, Consolas, &quot;Liberation Mono&quot;, Menlo, monospace" font-size="20" fill="#58A6FF">
+    <text x="154" y="45" dominant-baseline="middle" clip-path="url(#clip1)">Backend Engineer</text>
+    <text x="130" y="85" dominant-baseline="middle" clip-path="url(#clip2)">Kafka + Spring Batch</text>
+    <text x="70" y="125" dominant-baseline="middle" clip-path="url(#clip3)">Elasticsearch + Data Pipelines</text>
+  </g>
+
+  <rect y="30" width="3" height="26" fill="#58A6FF">
+    <animate attributeName="x" values="154;346;346;154;154" keyTimes="0.0;0.074074;0.87037;0.944444;1.0" dur="5.400s" begin="0s" repeatCount="indefinite" calcMode="linear" />
+    <animate attributeName="opacity" values="1;1;0;1;0;1;0;1;0;0" keyTimes="0.0;0.074074;0.111111;0.148148;0.185185;0.222222;0.240741;0.87037;0.944444;1.0" dur="5.400s" begin="0s" repeatCount="indefinite" calcMode="discrete" />
+  </rect>
+  <rect y="70" width="3" height="26" fill="#58A6FF">
+    <animate attributeName="x" values="130;130;370;370;130;130" keyTimes="0.0;0.240741;0.314815;0.796296;0.87037;1.0" dur="5.400s" begin="0s" repeatCount="indefinite" calcMode="linear" />
+    <animate attributeName="opacity" values="0;1;1;0;1;0;1;0;1;0;0" keyTimes="0.0;0.240741;0.314815;0.351852;0.388889;0.425926;0.462963;0.481481;0.796296;0.87037;1.0" dur="5.400s" begin="0s" repeatCount="indefinite" calcMode="discrete" />
+  </rect>
+  <rect y="110" width="3" height="26" fill="#58A6FF">
+    <animate attributeName="x" values="70;70;430;430;70;70" keyTimes="0.0;0.481481;0.555556;0.722222;0.796296;1.0" dur="5.400s" begin="0s" repeatCount="indefinite" calcMode="linear" />
+    <animate attributeName="opacity" values="0;1;1;0;1;0;1;1;0;0" keyTimes="0.0;0.481481;0.555556;0.592593;0.62963;0.666667;0.703704;0.722222;0.796296;1.0" dur="5.400s" begin="0s" repeatCount="indefinite" calcMode="discrete" />
+  </rect>
+</svg>

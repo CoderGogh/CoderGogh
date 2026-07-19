@@ -1,30 +1,32 @@
 <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=200&section=header&text=CoderGogh&fontSize=50&fontColor=ffffff"/> </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Kafka+%2B+Batch+Processing;%20;ElasticSearch+%2B+AI+Systems;%20;Data+Pipeline+Engineering&center=true&width=500&height=160&duration=1200&pause=500&color=58A6FF&vCenter=true&multiline=true">
-</p>
-
-<p align="center">
-  💡 <i>I focus on <b>Data Integrity</b>, <b>Distributed Systems</b>, and <b>High-Efficiency Architecture</b>.</i>
+  <img src="./typing-cursor.svg" width="500" height="160" alt="Backend Engineer / Kafka + Spring Batch / Elasticsearch + Data Pipelines">
 </p>
 
 ---
 
-# 🧑‍💻 About Me
+## About
 
-> ### 🚀 **Backend Engineer** specialized in scalable and data-intensive systems
-> **"Engineering robust backend solutions that align business logic with system performance."**
+**Hi there, I'm Haram Jeong — Backend Developer.**<br>
+I build data-intensive backend systems: batch pipelines, event-driven messaging, and search infrastructure.
 
-| Category | Key Achievements & Focus | Main Stack |
-| :--- | :--- | :--- |
-| **Scalability** | Built asynchronous messaging & settlement systems for **5M+ Transactions** | ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) |
-| **Data Engine** | Designed real-time analytics pipelines with AI-driven **ElasticSearch** indexing | ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) |
-| **Optimization** | Reduced API load by **70%** via **PostGIS** spatial queries & 3-Tier caching | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
-| **Security** | Implemented **RBAC** and **JWT-based** authentication for secure data access | ![Security](https://img.shields.io/badge/Security-Spring_Auth-red?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-Tokens-black?style=flat-square) |
+I've led three projects end-to-end, usually owning the data flow design, recovery logic, and failure handling — not just the feature itself:
+
+- **Settlement batch** — Kafka-based pipeline handling 5M+ daily transactions
+- **AI-assisted CRM** — consultation search & analytics system
+- **EON** — geospatial EV charging platform built on PostGIS
+
+| | |
+|:---|:---|
+| <img src="https://skillicons.dev/icons?i=kafka" width="22" /> &nbsp;**Messaging & Batch** | Kafka, Spring Batch, chunk processing, DLQ/retry design |
+| <img src="https://skillicons.dev/icons?i=elasticsearch" width="22" /> &nbsp;**Search & Data** | Elasticsearch, MongoDB, CQRS, denormalized storage |
+| <img src="https://skillicons.dev/icons?i=spring" width="22" /> &nbsp;**Backend** | Java, Spring Boot, FastAPI, PostgreSQL/PostGIS |
+| <img src="https://skillicons.dev/icons?i=docker" width="22" /> &nbsp;**Ops** | Redis caching, Docker, Grafana monitoring |
 
 ---
 
-# 🛠 Technical Stack
+## Stack
 
 <table>
   <tr>
@@ -34,11 +36,10 @@
       <img src="https://skillicons.dev/icons?i=spring" />
       <img src="https://skillicons.dev/icons?i=hibernate" />
       <img src="https://skillicons.dev/icons?i=kafka" />
-      <img src="https://skillicons.dev/icons?i=security" />
     </td>
   </tr>
   <tr>
-    <td><b>Storage</b></td>
+    <td><b>Data</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=mysql" />
       <img src="https://skillicons.dev/icons?i=postgres" />
@@ -66,33 +67,83 @@
 
 ---
 
-# 📂 Main Projects
+## Main Projects
 
-### 🏗️ Large-scale Batch & Messaging Platform
-- **Impact:** Successfully processed **1M users** and **5M+ transactions** via high-traffic settlement system.
-- **Tech:** ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) ![Spring Batch](https://img.shields.io/badge/Spring_Batch-6DB33F?style=flat-square&logo=spring) ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
-- **Detail:** Optimized asynchronous messaging and ensured data integrity using **Spring Batch Meta-data** and fault-tolerant design.
-- 🔗[async-settlement-system](https://github.com/CoderGogh/async-settlement-system)
+### Async Settlement System
+*Kafka & Spring Batch settlement platform · 2026.01 · 3 weeks · Batch team lead*
+
+Settlement batch and message delivery for 1M users / 5M+ usage records, built as one controlled pipeline instead of a simple data transfer. Settlement and delivery are split into separate modules connected asynchronously through Kafka.
+
+- Chunk-based (Reader-Processor-Writer) processing to avoid OOM and connection exhaustion on large batches
+- Manual ack commit (`AckMode.MANUAL_IMMEDIATE`) instead of auto-commit, to stop silent failures during consumer rebalancing — settlement data loss rate: 0%
+- Failed messages retry up to 3 times, then move to a DLQ for manual review
+- JDBC bulk insert for the settlement writer step — write time cut by ~50%
+- Settlement/delivery progress tracked via Spring Batch meta tables for near real-time bottleneck visibility
+
+<p>
+  <img src="https://skillicons.dev/icons?i=java" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=spring" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=kafka" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=mysql" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=redis" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=docker" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=gcp" width="32" />
+</p>
+
+[repo →](https://github.com/CoderGogh/async-settlement-system)
 
 ---
 
-### 🤖 AI-powered Customer Analytics System
-- **Impact:** Automated semantic analysis and real-time reporting for large-scale consultation logs.
-- **Tech:** ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Flyway](https://img.shields.io/badge/Flyway-CC0000?style=flat-square&logo=flyway&logoColor=white)
-- **Detail:** Enhanced search performance via **Data Denormalization** in MongoDB and customized **Elasticsearch tokenizers**.
-- 🔗[AI-Based-CRM](https://github.com/4Ureca)
+### AI-based CRM
+*AI-assisted consultation record platform · 2026.02–2026.03 · 7 weeks · Team lead, search & AI summary*
+
+Consultation logs are summarized automatically via the Gemini API, then split into read/write paths (CQRS) so the stored data stays reusable for analysis, not just archived. Long, inconsistent-format transcripts are chunked before indexing to keep search relevant.
+
+- CQRS split: writes go through summarization/storage, reads go through Elasticsearch
+- Elasticsearch full-text search with N-gram analyzer for autocomplete/suggestions
+- Denormalized document storage in MongoDB to avoid join overhead on combined queries
+- External Gemini API calls decoupled from internal storage/query flow, so API latency doesn't propagate
+- Result: search response time improved ~300%, infra cost reduced ~25%
+
+<p>
+  <img src="https://skillicons.dev/icons?i=java" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=spring" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=elasticsearch" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=mongodb" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=redis" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=kafka" width="32" style="margin-right:10px" />
+  <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" height="26" />
+</p>
+
+[repo →](https://github.com/4Ureca)
 
 ---
 
-### ⚡ EV Charging Information System
-- **Impact:** Provided real-time, optimized charging station data through spatial data processing.
-- **Tech:** ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens&logoColor=white) ![Poetry](https://img.shields.io/badge/Poetry-60A5FA?style=flat-square&logo=python) ![Alembic](https://img.shields.io/badge/Alembic-DBAB09?style=flat-square&logo=python)
-- **Detail:** Reduced API latency and overhead by implementing **PostGIS spatial queries** and a **3-tier caching strategy**.
-- 🔗[EON(Front-End)](https://github.com/CoderGogh/Eon-FrontEnd-Server) & 🔗[EON(Back-End)](https://github.com/CoderGogh/Eon-BackEnd-Server)
+### EON — EV Charging Info System
+*EV subsidy & charging station platform · 2025.08–2025.10 · 9 weeks · Sole backend*
+
+Unifies scattered regional EV subsidy data and real-time charging station status into one service, so users can check an actual purchase price and nearby chargers in one place.
+
+- FastAPI async I/O for concurrent subsidy calculations across regions/trims
+- PostGIS spatial queries (`ST_DWithin` + GiST index) with a dynamic radius correction (±10%) to fix a boundary bug where edge-of-radius stations were missing — missing-station rate: 0%
+- Redis caching layer for repeated KEPCO API lookups — response time and throughput improved ~6x
+- API contract auto-documented via FastAPI's OpenAPI/Swagger UI to keep frontend/backend in sync
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=fastapi" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=postgres" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=redis" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=docker" width="32" style="margin-right:10px" />
+  <img src="https://img.shields.io/badge/Poetry-60A5FA?style=for-the-badge&logo=poetry&logoColor=white" height="26" style="margin-right:6px" />
+  <img src="https://img.shields.io/badge/Alembic-DBAB09?style=for-the-badge" height="26" />
+</p>
+
+[frontend →](https://github.com/CoderGogh/Eon-FrontEnd-Server) · [backend →](https://github.com/CoderGogh/Eon-BackEnd-Server)
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <table align="center">
   <tr>
