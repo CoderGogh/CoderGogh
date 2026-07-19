@@ -8,7 +8,7 @@
 
 ## About
 
-**Hi there, I'm Haram Jeong — Backend Developer.**<br>
+**Hi there👋🏻, I'm Haram Jeong — Backend Developer.**<br>
 I build data-intensive backend systems: batch pipelines, event-driven messaging, and search infrastructure.
 
 I've led three projects end-to-end, usually owning the data flow design, recovery logic, and failure handling — not just the feature itself:
@@ -70,7 +70,7 @@ I've led three projects end-to-end, usually owning the data flow design, recover
 ## Main Projects
 
 ### Async Settlement System
-*Kafka & Spring Batch settlement platform · 2026.01 · 3 weeks · Batch team lead*
+#### *Kafka & Spring Batch settlement platform · 2026.01 · 3 weeks · Batch team lead*
 
 Settlement batch and message delivery for 1M users / 5M+ usage records, built as one controlled pipeline instead of a simple data transfer. Settlement and delivery are split into separate modules connected asynchronously through Kafka.
 
@@ -95,7 +95,7 @@ Settlement batch and message delivery for 1M users / 5M+ usage records, built as
 ---
 
 ### AI-based CRM
-*AI-assisted consultation record platform · 2026.02–2026.03 · 7 weeks · Team lead, search & AI summary*
+#### *AI-assisted consultation record platform · 2026.02–2026.03 · 7 weeks · Team lead, search & AI summary*
 
 Consultation logs are summarized automatically via the Gemini API, then split into read/write paths (CQRS) so the stored data stays reusable for analysis, not just archived. Long, inconsistent-format transcripts are chunked before indexing to keep search relevant.
 
@@ -120,7 +120,7 @@ Consultation logs are summarized automatically via the Gemini API, then split in
 ---
 
 ### EON — EV Charging Info System
-*EV subsidy & charging station platform · 2025.08–2025.10 · 9 weeks · Sole backend*
+#### *EV subsidy & charging station platform · 2025.08–2025.10 · 9 weeks · Sole backend*
 
 Unifies scattered regional EV subsidy data and real-time charging station status into one service, so users can check an actual purchase price and nearby chargers in one place.
 
