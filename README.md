@@ -93,7 +93,7 @@ What I care about:
   <img src="https://skillicons.dev/icons?i=docker" width="32" />
 </p>
 
-[repo →](https://github.com/CoderGogh/async-settlement-system)
+[repo →](https://github.com/CoderGogh/async-settlement-system) · [deploy →](https://async-settlement-system.vercel.app)
 
 ---
 
