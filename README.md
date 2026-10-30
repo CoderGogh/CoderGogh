@@ -51,7 +51,7 @@ What I care about:
   <tr>
     <td><b>Data Pipeline & CI</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" height="48" />
+      <img src="./apacheairflow.svg" alt="Apache Airflow" width="48" height="48" />
       <img src="https://skillicons.dev/icons?i=python" />
       <img src="https://skillicons.dev/icons?i=githubactions" />
       <img src="https://skillicons.dev/icons?i=gitlab" />
@@ -175,9 +175,9 @@ What I care about:
   <img src="https://skillicons.dev/icons?i=python" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=postgres" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=docker" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=gitlab" width="32" style="margin-right:10px" />
-  <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" height="26" style="margin-right:6px" />
-  <img src="https://img.shields.io/badge/R_Shiny-276DC3?style=for-the-badge&logo=r&logoColor=white" height="26" />
+  <img src="https://skillicons.dev/icons?i=gitlab" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=r" width="32" style="margin-right:8px" />
+  <img src="./apacheairflow.svg" alt="Apache Airflow" width="30" height="30" style="vertical-align:top" />
 </p>
 
 [repo →](https://github.com/CoderGogh/seoul-ev-data-platform)
