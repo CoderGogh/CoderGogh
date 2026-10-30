@@ -44,7 +44,7 @@ What I care about:
     <td><b>AI & Search</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=elasticsearch" />
-      <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" height="48" />
+      <img src="https://cdn.simpleicons.org/googlegemini/8E75B2" alt="Gemini API" width="48" height="48" />
       <img src="https://img.shields.io/badge/Nori-00A98F?style=for-the-badge" height="48" />
     </td>
   </tr>
@@ -117,8 +117,8 @@ What I care about:
   <img src="https://skillicons.dev/icons?i=spring" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=elasticsearch" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=mongodb" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=redis" width="32" style="margin-right:10px" />
-  <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" height="26" />
+  <img src="https://skillicons.dev/icons?i=redis" width="32" style="margin-right:8px" />
+  <img src="https://cdn.simpleicons.org/googlegemini/8E75B2" alt="Gemini API" width="30" height="30" style="vertical-align:top" />
 </p>
 
 [repo →](https://github.com/4Ureca)
