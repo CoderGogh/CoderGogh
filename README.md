@@ -121,7 +121,7 @@ What I care about:
   <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" height="26" />
 </p>
 
-[repo →](https://github.com/4Ureca)
+[repo →](https://github.com/4Ureca) · [deploy →](https://aicc-crm-tawny.vercel.app)
 
 ---
 
