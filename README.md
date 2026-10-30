@@ -180,7 +180,7 @@ What I care about:
   <img src="https://cdn.simpleicons.org/apacheairflow/017CEE" alt="Apache Airflow" width="30" height="30" style="vertical-align:top" />
 </p>
 
-[repo →](https://github.com/CoderGogh/seoul-ev-data-platform)
+[repo →](https://github.com/CoderGogh/seoul-ev-data-platform) · [deploy →](https://seoul-ev-insight.vercel.app)
 
 ---
 
