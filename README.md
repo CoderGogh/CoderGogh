@@ -93,8 +93,8 @@ What I care about:
   <img src="https://skillicons.dev/icons?i=docker" width="32" />
 </p>
 <br>
-[🚀deploy →](https://async-settlement-system.vercel.app)<br>
-[🗂️repo →](https://github.com/CoderGogh/async-settlement-system)
+<a href="https://async-settlement-system.vercel.app">🚀 deploy →</a><br>
+<a href="https://github.com/CoderGogh/async-settlement-system">🗂️ repo →</a>
 
 ---
 
