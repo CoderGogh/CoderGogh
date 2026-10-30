@@ -19,10 +19,10 @@
 
 | | |
 |:---|:---|
-| <img src="https://skillicons.dev/icons?i=kafka" width="22" /> &nbsp;**Messaging & Batch** | Kafka, Spring Batch, chunk processing, DLQ/retry design |
-| <img src="https://skillicons.dev/icons?i=elasticsearch" width="22" /> &nbsp;**Search & Data** | Elasticsearch, MongoDB, CQRS, denormalized storage |
+| <img src="https://skillicons.dev/icons?i=kafka" width="22" /> &nbsp;**Messaging & Batch** | Kafka, Spring Batch, chunk processing, Producer-side retry |
+| <img src="https://skillicons.dev/icons?i=elasticsearch" width="22" /> &nbsp;**Search & Data** | Elasticsearch, Nori, MongoDB, CQRS |
 | <img src="https://skillicons.dev/icons?i=spring" width="22" /> &nbsp;**Backend** | Java, Spring Boot, FastAPI, PostgreSQL/PostGIS |
-| <img src="https://skillicons.dev/icons?i=docker" width="22" /> &nbsp;**Ops** | Redis caching, Docker, Grafana monitoring |
+| <img src="https://skillicons.dev/icons?i=docker" width="22" /> &nbsp;**Ops** | Redis caching, Docker, AWS |
 
 ---
 
@@ -35,32 +35,31 @@
       <img src="https://skillicons.dev/icons?i=java" />
       <img src="https://skillicons.dev/icons?i=spring" />
       <img src="https://skillicons.dev/icons?i=hibernate" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>DB & Messaging</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=mysql" />
+      <img src="https://skillicons.dev/icons?i=mongodb" />
+      <img src="https://skillicons.dev/icons?i=postgres" />
+      <img src="https://skillicons.dev/icons?i=redis" />
       <img src="https://skillicons.dev/icons?i=kafka" />
     </td>
   </tr>
   <tr>
-    <td><b>Data</b></td>
+    <td><b>AI & Search</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=mysql" />
-      <img src="https://skillicons.dev/icons?i=postgres" />
-      <img src="https://skillicons.dev/icons?i=mongodb" />
-      <img src="https://skillicons.dev/icons?i=redis" />
       <img src="https://skillicons.dev/icons?i=elasticsearch" />
+      <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" height="48" />
+      <img src="https://img.shields.io/badge/Nori-00A98F?style=for-the-badge" height="48" />
     </td>
   </tr>
   <tr>
     <td><b>Infra</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=docker" />
       <img src="https://skillicons.dev/icons?i=aws" />
-      <img src="https://skillicons.dev/icons?i=gcp" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>AI/ML</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=python" />
-      <img src="https://skillicons.dev/icons?i=pytorch" />
+      <img src="https://skillicons.dev/icons?i=docker" />
     </td>
   </tr>
 </table>
@@ -89,12 +88,10 @@
   <img src="https://skillicons.dev/icons?i=spring" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=kafka" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=mysql" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=redis" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=docker" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=gcp" width="32" />
+  <img src="https://skillicons.dev/icons?i=docker" width="32" />
 </p>
 
-[repo →](https://github.com/CoderGogh/async-settlement-system)
+[repo →](https://github.com/urecaProjectTeam2/Ureka_plus)
 
 ---
 
@@ -118,8 +115,7 @@
   <img src="https://skillicons.dev/icons?i=spring" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=elasticsearch" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=mongodb" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=redis" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=kafka" width="32" style="margin-right:10px" />
+  <img src="https://skillicons.dev/icons?i=redis" width="32" style="margin-right:10px" />
   <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" height="26" />
 </p>
 
@@ -128,7 +124,8 @@
 ---
 
 ### EON — EV Charging Platform
-  #### *2025.08–2025.10 · 9 weeks*
+  #### *2025.08–2025.10 · 9 weeks · 프로젝트 팀장, 백엔드 단독 (현직 FE·PM 각 1)*
+
 🏆 **정보통신기획평가원(IITP) 원장상 · 2025.12**
 
  정부·성남시 전기차 보조금과 위치 기반 충전소 정보를 한 서비스로 통합해, 실구매가와 주변 충전소를 한 번에 확인.
