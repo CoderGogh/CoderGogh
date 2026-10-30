@@ -122,8 +122,8 @@ What I care about:
   <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" height="26" />
 </p>
 <br>
-[🚀deploy →](https://aicc-crm.vercel.app)<br>
-[🗂️repo →](https://github.com/4Ureca)
+<a href="https://aicc-crm.vercel.app">🚀 deploy →</a><br>
+<a href="https://github.com/4Ureca">🗂️ repo →</a>
 
 ---
 
@@ -154,9 +154,9 @@ What I care about:
   <img src="https://img.shields.io/badge/Alembic-DBAB09?style=for-the-badge" height="26" />
 </p>
 <br>
-[🚀deploy →](https://get-your-eon.vercel.app)<br>
-[🗂️frontend →](https://github.com/CoderGogh/Eon-FrontEnd-Server)<br>
-[🗂️backend →](https://github.com/CoderGogh/Eon-BackEnd-Server)
+<a href="https://get-your-eon.vercel.app">🚀 deploy →</a><br>
+<a href="https://github.com/CoderGogh/Eon-FrontEnd-Server">🗂️ frontend →</a><br>
+<a href="https://github.com/CoderGogh/Eon-BackEnd-Server">🗂️ backend →</a>
 
 ---
 
@@ -184,8 +184,8 @@ What I care about:
   <img src="https://cdn.simpleicons.org/apacheairflow/017CEE" alt="Apache Airflow" width="30" height="30" style="vertical-align:top" />
 </p>
 <br>
-[🚀deploy →](https://seoul-ev-insight.vercel.app)<br>
-[🗂️repo →](https://github.com/CoderGogh/seoul-ev-data-platform)
+<a href="https://seoul-ev-insight.vercel.app">🚀 deploy →</a><br>
+<a href="https://github.com/CoderGogh/seoul-ev-data-platform">🗂️ repo →</a>
 
 ---
 
