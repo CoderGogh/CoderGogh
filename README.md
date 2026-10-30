@@ -69,8 +69,6 @@
 
 ## Main Projects
 
----
-
 ### Async Settlement System — 정산
   #### *2026.01 · 2 weeks · 프로젝트 팀장 (BE 6)*
 
