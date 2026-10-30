@@ -8,21 +8,14 @@
 
 ## About
 
-  **Hi there👋🏻, I'm Haram Jeong — Backend Developer.**<br>
- I build data-intensive backend systems: batch pipelines, event-driven messaging, and search infrastructure.
+  **Hi there 👋🏻 I'm Haram Jeong — a backend developer.**<br>
+ I focus on data-intensive systems — batch pipelines, event-driven messaging, and search infrastructure — and on keeping them reliable under load.
 
- I've led three projects end-to-end, usually owning the data flow design, recovery logic, and failure handling — not just the feature itself:
+What I care about:
 
-- **Settlement batch** — Kafka-based pipeline handling 5M+ daily transactions
-- **AI-assisted CRM** — consultation search & analytics system
-- **EON** — geospatial EV charging platform built on PostGIS
-
-| | |
-|:---|:---|
-| <img src="https://skillicons.dev/icons?i=kafka" width="22" /> &nbsp;**Messaging & Batch** | Kafka, Spring Batch, chunk processing, Producer-side retry |
-| <img src="https://skillicons.dev/icons?i=elasticsearch" width="22" /> &nbsp;**Search & Data** | Elasticsearch, Nori, MongoDB, CQRS |
-| <img src="https://skillicons.dev/icons?i=spring" width="22" /> &nbsp;**Backend** | Java, Spring Boot, FastAPI, PostgreSQL/PostGIS |
-| <img src="https://skillicons.dev/icons?i=docker" width="22" /> &nbsp;**Ops** | Redis caching, Docker, AWS |
+- **Deliberate tech choices** — I reach for Kafka, Spring Batch, or caching when the problem calls for it, not by default.
+- **Ownership of the data flow** — I design the pipeline, recovery logic, and failure handling end to end, not just the feature.
+- **Reliability over assumption** — I trust a system through logs, tests, and observable behavior, not guesswork.
 
 ---
 
