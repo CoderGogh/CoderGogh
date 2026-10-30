@@ -93,8 +93,8 @@ What I care about:
   <img src="https://skillicons.dev/icons?i=docker" width="32" />
 </p>
 <br>
-🚀[deploy →](https://async-settlement-system.vercel.app)<br>
-🗂️[repo →](https://github.com/CoderGogh/async-settlement-system)
+[🚀deploy →](https://async-settlement-system.vercel.app)<br>
+[🗂️repo →](https://github.com/CoderGogh/async-settlement-system)
 
 ---
 
@@ -122,8 +122,8 @@ What I care about:
   <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" height="26" />
 </p>
 <br>
-🚀[deploy →](https://aicc-crm.vercel.app)<br>
-🗂️[repo →](https://github.com/4Ureca)
+[🚀deploy →](https://aicc-crm.vercel.app)<br>
+[🗂️repo →](https://github.com/4Ureca)
 
 ---
 
@@ -154,9 +154,10 @@ What I care about:
   <img src="https://img.shields.io/badge/Alembic-DBAB09?style=for-the-badge" height="26" />
 </p>
 <br>
-🚀[deploy →](https://get-your-eon.vercel.app)<br>
-🗂️[frontend →](https://github.com/CoderGogh/Eon-FrontEnd-Server)
-🗂️[backend →](https://github.com/CoderGogh/Eon-BackEnd-Server)
+[🚀deploy →](https://get-your-eon.vercel.app)<br>
+[🗂️frontend →](https://github.com/CoderGogh/Eon-FrontEnd-Server)<br>
+[🗂️backend →](https://github.com/CoderGogh/Eon-BackEnd-Server)
+
 ---
 
 ### Seoul EV Siting Platform — 서울 전동화 입지 인사이트
@@ -183,8 +184,8 @@ What I care about:
   <img src="https://cdn.simpleicons.org/apacheairflow/017CEE" alt="Apache Airflow" width="30" height="30" style="vertical-align:top" />
 </p>
 <br>
-🚀[deploy →](https://seoul-ev-insight.vercel.app)<br>
-🗂️[repo →](https://github.com/CoderGogh/seoul-ev-data-platform)
+[🚀deploy →](https://seoul-ev-insight.vercel.app)<br>
+[🗂️repo →](https://github.com/CoderGogh/seoul-ev-data-platform)
 
 ---
 
