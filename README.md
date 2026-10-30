@@ -153,9 +153,10 @@ What I care about:
   <img src="https://img.shields.io/badge/Poetry-60A5FA?style=for-the-badge&logo=poetry&logoColor=white" height="26" style="margin-right:6px" />
   <img src="https://img.shields.io/badge/Alembic-DBAB09?style=for-the-badge" height="26" />
 </p>
-
-[frontend →](https://github.com/CoderGogh/Eon-FrontEnd-Server) · [backend →](https://github.com/CoderGogh/Eon-BackEnd-Server) · [deploy →](https://get-your-eon.vercel.app)
-
+<br>
+🚀[deploy →](https://get-your-eon.vercel.app)<br>
+🗂️[frontend →](https://github.com/CoderGogh/Eon-FrontEnd-Server)
+🗂️[backend →](https://github.com/CoderGogh/Eon-BackEnd-Server)
 ---
 
 ### Seoul EV Siting Platform — 서울 전동화 입지 인사이트
