@@ -14,15 +14,15 @@
  I've led three projects end-to-end, usually owning the data flow design, recovery logic, and failure handling — not just the feature itself:
 
 - **Settlement batch** — Kafka-based pipeline handling 5M+ daily transactions
-- **AI-assisted CRM** — consultation search & analytics system
-- **EON** — geospatial EV charging platform built on PostGIS
+- **AI-assisted CRM** — consultation summary, search & analytics system
+- **EON** — geospatial EV charging platform built on PostGIS (IITP 원장상)
 
 | | |
 |:---|:---|
-| <img src="https://skillicons.dev/icons?i=kafka" width="22" /> &nbsp;**Messaging & Batch** | Kafka, Spring Batch, chunk processing, DLQ/retry design |
-| <img src="https://skillicons.dev/icons?i=elasticsearch" width="22" /> &nbsp;**Search & Data** | Elasticsearch, MongoDB, CQRS, denormalized storage |
-| <img src="https://skillicons.dev/icons?i=spring" width="22" /> &nbsp;**Backend** | Java, Spring Boot, FastAPI, PostgreSQL/PostGIS |
-| <img src="https://skillicons.dev/icons?i=docker" width="22" /> &nbsp;**Ops** | Redis caching, Docker, Grafana monitoring |
+| <img src="https://skillicons.dev/icons?i=kafka" width="22" /> &nbsp;**Messaging & Batch** | Kafka, Spring Batch, chunk processing, Producer-side retry |
+| <img src="https://skillicons.dev/icons?i=elasticsearch" width="22" /> &nbsp;**Search & Data** | Elasticsearch, Nori, MongoDB, CQRS |
+| <img src="https://skillicons.dev/icons?i=spring" width="22" /> &nbsp;**Backend** | Java, Spring Boot, JPA/JDBC, FastAPI, PostgreSQL/PostGIS |
+| <img src="https://skillicons.dev/icons?i=docker" width="22" /> &nbsp;**Ops** | Redis caching, Docker, AWS |
 
 ---
 
@@ -35,32 +35,31 @@
       <img src="https://skillicons.dev/icons?i=java" />
       <img src="https://skillicons.dev/icons?i=spring" />
       <img src="https://skillicons.dev/icons?i=hibernate" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>DB & Messaging</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=mysql" />
+      <img src="https://skillicons.dev/icons?i=mongodb" />
+      <img src="https://skillicons.dev/icons?i=postgres" />
+      <img src="https://skillicons.dev/icons?i=redis" />
       <img src="https://skillicons.dev/icons?i=kafka" />
     </td>
   </tr>
   <tr>
-    <td><b>Data</b></td>
+    <td><b>AI & Search</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=mysql" />
-      <img src="https://skillicons.dev/icons?i=postgres" />
-      <img src="https://skillicons.dev/icons?i=mongodb" />
-      <img src="https://skillicons.dev/icons?i=redis" />
       <img src="https://skillicons.dev/icons?i=elasticsearch" />
+      <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" height="48" />
+      <img src="https://img.shields.io/badge/Nori-00A98F?style=for-the-badge" height="48" />
     </td>
   </tr>
   <tr>
     <td><b>Infra</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=docker" />
       <img src="https://skillicons.dev/icons?i=aws" />
-      <img src="https://skillicons.dev/icons?i=gcp" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>AI/ML</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=python" />
-      <img src="https://skillicons.dev/icons?i=pytorch" />
+      <img src="https://skillicons.dev/icons?i=docker" />
     </td>
   </tr>
 </table>
@@ -69,49 +68,27 @@
 
 ## Main Projects
 
-### Async Settlement System
-  #### *Kafka & Spring Batch settlement platform · 2026.01 · 3 weeks · Batch team lead*
+### AI-based CRM — 상담관리
+  #### *2026.02–2026.03 · 7 weeks · 프로젝트 팀장 (BE 6 · FE 1)*
 
- Settlement batch and message delivery for 1M users / 5M+ usage records, built as one controlled pipeline instead of a simple data transfer. Settlement and delivery are split into separate modules connected asynchronously through Kafka.
+ 상담 이력을 Gemini로 자동 요약·분류·품질평가하고, 우수/유사 상담사례 검색과 리포트를 제공하는 상담 관리 플랫폼.
 
-- Chunk-based (Reader-Processor-Writer) processing to avoid OOM and connection exhaustion on large batches
-- Manual ack commit (`AckMode.MANUAL_IMMEDIATE`) instead of auto-commit, to stop silent failures during consumer rebalancing — settlement data loss rate: 0%
-- Failed messages retry up to 3 times, then move to a DLQ for manual review
-- JDBC bulk insert for the settlement writer step — write time cut by ~50%
-- Settlement/delivery progress tracked via Spring Batch meta tables for near real-time bottleneck visibility
+**핵심 기능**
+- 상담 이력 AI 자동 요약·분류·품질평가, 우수 상담사례 선정
+- 전문/유사 상담사례 검색
+- 월/주/일별 리포트 + 관리자·상담사 대시보드
 
-<p>
-  <img src="https://skillicons.dev/icons?i=java" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=spring" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=kafka" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=mysql" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=redis" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=docker" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=gcp" width="32" />
-</p>
-
-[repo →](https://github.com/CoderGogh/async-settlement-system)
-
----
-
-### AI-based CRM
-  #### *AI-assisted consultation record platform · 2026.02–2026.03 · 7 weeks · Team lead, search & AI summary*
-
- Consultation logs are summarized automatically via the Gemini API, then split into read/write paths (CQRS) so the stored data stays reusable for analysis, not just archived. Long, inconsistent-format transcripts are chunked before indexing to keep search relevant.
-
-- CQRS split: writes go through summarization/storage, reads go through Elasticsearch
-- Elasticsearch full-text search with N-gram analyzer for autocomplete/suggestions
-- Denormalized document storage in MongoDB to avoid join overhead on combined queries
-- External Gemini API calls decoupled from internal storage/query flow, so API latency doesn't propagate
-- Result: search response time improved ~300%, infra cost reduced ~25%
+**성과**
+- 카테고리별 프롬프트 분기 + 모델 교체(Gemini 2.5 Flash-Lite) → 분류 정확도 60%→85%, 호출 지연 1.2s→0.7s, 비용 80% 절감, 처리량 5.2배
+- Elasticsearch + Nori 튜닝 → MySQL Like 대비 검색 속도 80% 단축, 검색 정확도 70% 개선
+- CQRS 읽기/쓰기 분리 + DB 상태테이블 아웃박스 패턴 → ES 자원 경합 해소 · 분산 연동 안정성 확보
 
 <p>
   <img src="https://skillicons.dev/icons?i=java" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=spring" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=elasticsearch" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=mongodb" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=redis" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=kafka" width="32" style="margin-right:10px" />
+  <img src="https://skillicons.dev/icons?i=redis" width="32" style="margin-right:10px" />
   <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" height="26" />
 </p>
 
@@ -119,27 +96,59 @@
 
 ---
 
-### EON — EV Charging Info System
-  #### *EV subsidy & charging station platform · 2025.08–2025.10 · 9 weeks · Sole backend*
+### Async Settlement System — 정산
+  #### *2026.01 · 2 weeks · 프로젝트 팀장 (BE 6)*
 
- Unifies scattered regional EV subsidy data and real-time charging station status into one service, so users can check an actual purchase price and nearby chargers in one place.
+ 일 500만 건 규모의 통신요금 정산 배치와 알림 발송을 Kafka로 비동기 분리한 대용량 파이프라인.
 
-- FastAPI async I/O for concurrent subsidy calculations across regions/trims
-- PostGIS spatial queries (`ST_DWithin` + GiST index) with a dynamic radius correction (±10%) to fix a boundary bug where edge-of-radius stations were missing — missing-station rate: 0%
-- Redis caching layer for repeated KEPCO API lookups — response time and throughput improved ~6x
-- API contract auto-documented via FastAPI's OpenAPI/Swagger UI to keep frontend/backend in sync
+**핵심 기능**
+- 대용량 정산 배치 처리 (500만 건/일)
+- 이용자 맞춤형 알림 발송 (SMS · Email)
+- 실시간 배치 모니터링 대시보드
+
+**성과**
+- Kafka로 정산–알림 모듈 이벤트 기반 비동기 연동 → 모듈 결합도 감소
+- Kafka 재처리 책임을 Producer로 재설계 → 정산/메시지 유실률 0%
+- JPA→JDBC 전환 + Bulk Insert 튜닝 → 배치 처리시간 48% 단축, JVM 로컬 Map 캐시로 반복 DB 조회 제거
+
+<p>
+  <img src="https://skillicons.dev/icons?i=java" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=spring" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=kafka" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=mysql" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=docker" width="32" />
+</p>
+
+[repo →](https://github.com/urecaProjectTeam2/Ureka_plus)
+
+---
+
+### EON — EV Charging Platform
+  #### *2025.08–2025.10 · 9 weeks · 프로젝트 팀장, 백엔드 단독 (현직 FE·PM 각 1)*
+
+🏆 **정보통신기획평가원(IITP) 원장상 · 2025.12**
+
+ 정부·성남시 전기차 보조금과 위치 기반 충전소 정보를 한 서비스로 통합해, 실구매가와 주변 충전소를 한 번에 확인.
+
+**핵심 기능**
+- 정부/성남시 전기차 보조금 조회
+- 위치 기반 충전소·충전기 정보 제공
+
+**성과**
+- PostGIS(ST_DWithin · ST_Distance) 반경 매핑 → 조회 사각지대 해소
+- 좌표 반올림 캐시 키 + Redis Sorted Set 계층형 캐싱 → 캐시 히트율 40%p 개선, KEPCO 공공 API 의존도 감소
+- Redis 계층형 캐싱 후 부하테스트 → RPS 0 → 50~60, 응답 지연 100s → 10ms대 (Locust)
+- Group By + ANY(:ids) 배치 쿼리 → N+1 쿼리 방지
 
 <p>
   <img src="https://skillicons.dev/icons?i=python" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=fastapi" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=postgres" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=redis" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=docker" width="32" style="margin-right:10px" />
-  <img src="https://img.shields.io/badge/Poetry-60A5FA?style=for-the-badge&logo=poetry&logoColor=white" height="26" style="margin-right:6px" />
-  <img src="https://img.shields.io/badge/Alembic-DBAB09?style=for-the-badge" height="26" />
+  <img src="https://skillicons.dev/icons?i=docker" width="32" />
 </p>
 
-[frontend →](https://github.com/CoderGogh/Eon-FrontEnd-Server) · [backend →](https://github.com/CoderGogh/Eon-BackEnd-Server)
+[repo →](https://github.com/Get-Your-Eon/Backend_Server)
 
 ---
 
