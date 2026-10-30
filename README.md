@@ -51,7 +51,7 @@ What I care about:
   <tr>
     <td><b>Data Pipeline & CI</b></td>
     <td>
-      <img src="./apacheairflow.svg" alt="Apache Airflow" width="48" height="48" />
+      <img src="https://cdn.simpleicons.org/apacheairflow/017CEE" alt="Apache Airflow" width="48" height="48" />
       <img src="https://skillicons.dev/icons?i=python" />
       <img src="https://skillicons.dev/icons?i=githubactions" />
       <img src="https://skillicons.dev/icons?i=gitlab" />
@@ -177,7 +177,7 @@ What I care about:
   <img src="https://skillicons.dev/icons?i=docker" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=gitlab" width="32" style="margin-right:6px" />
   <img src="https://skillicons.dev/icons?i=r" width="32" style="margin-right:8px" />
-  <img src="./apacheairflow.svg" alt="Apache Airflow" width="30" height="30" style="vertical-align:top" />
+  <img src="https://cdn.simpleicons.org/apacheairflow/017CEE" alt="Apache Airflow" width="30" height="30" style="vertical-align:top" />
 </p>
 
 [repo →](https://github.com/CoderGogh/seoul-ev-data-platform)
