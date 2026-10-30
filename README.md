@@ -152,7 +152,7 @@ What I care about:
   <img src="https://img.shields.io/badge/Alembic-DBAB09?style=for-the-badge" height="26" />
 </p>
 
-[frontend →](https://github.com/CoderGogh/Eon-FrontEnd-Server) · [backend →](https://github.com/CoderGogh/Eon-BackEnd-Server)
+[frontend →](https://github.com/CoderGogh/Eon-FrontEnd-Server) · [backend →](https://github.com/CoderGogh/Eon-BackEnd-Server) · [deploy →](https://get-your-eon.vercel.app)
 
 ---
 
