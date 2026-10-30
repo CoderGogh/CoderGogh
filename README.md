@@ -49,6 +49,15 @@ What I care about:
     </td>
   </tr>
   <tr>
+    <td><b>Data Pipeline & CI</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" height="48" />
+      <img src="https://skillicons.dev/icons?i=python" />
+      <img src="https://skillicons.dev/icons?i=githubactions" />
+      <img src="https://skillicons.dev/icons?i=gitlab" />
+    </td>
+  </tr>
+  <tr>
     <td><b>Infra</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=aws" />
@@ -144,6 +153,34 @@ What I care about:
 </p>
 
 [frontend →](https://github.com/CoderGogh/Eon-FrontEnd-Server) · [backend →](https://github.com/CoderGogh/Eon-BackEnd-Server)
+
+---
+
+### Seoul EV Siting Platform — 서울 전동화 입지 인사이트
+  #### *데이터 플랫폼 · 개인 설계·구현*
+
+ 서울시 월간 전기차 등록현황과 실시간 도로소통정보를 각기 다른 주기로 수집·정제하고, 행정동 단위로 결합해 충전소 우선 검토 지역을 선정하는 Airflow 데이터 파이프라인.
+
+**핵심 기능**
+- 월간 EV 등록현황 + 실시간 도로소통정보 주기별 수집·정제
+- 행정동 단위 데이터 정합·결합
+- EV 대수·증가율 기반 충전소 우선 검토 지역 선정
+
+**성과**
+- Airflow DAG 7개로 수집 → 정제 → 마트 적재 → 품질 모니터링 → 리텐션 정리까지 파이프라인 구성
+- PostGIS 분석 DB와 Airflow 메타DB 분리 + Docker Compose 기반 서비스 구성
+- GitLab CI + 환경변수 기반 커넥션·시크릿 관리, R Shiny 대시보드(읽기 전용 role)로 결과 시각화
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=postgres" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=docker" width="32" style="margin-right:6px" />
+  <img src="https://skillicons.dev/icons?i=gitlab" width="32" style="margin-right:10px" />
+  <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" height="26" style="margin-right:6px" />
+  <img src="https://img.shields.io/badge/R_Shiny-276DC3?style=for-the-badge&logo=r&logoColor=white" height="26" />
+</p>
+
+[repo →](https://github.com/CoderGogh/seoul-ev-data-platform)
 
 ---
 
