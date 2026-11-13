@@ -71,7 +71,7 @@ What I care about:
 ## Main Projects
 
 ### Async Settlement System — 정산
-  #### *2026.01 · 2 weeks · 프로젝트 팀장 (BE 6)*
+  #### *2026.01 · 2 weeks ·  (BE 6)*
 
  일 500만 건 규모의 통신요금 정산 배치와 알림 발송을 Kafka로 비동기 분리한 대용량 파이프라인.
 
@@ -99,7 +99,7 @@ What I care about:
 ---
 
 ### AI-based CRM — 상담관리
-  #### *2026.02–2026.03 · 7 weeks · 프로젝트 팀장 (BE 6 · FE 1)*
+  #### *2026.02–2026.03 · 7 weeks · (BE 6 · FE 1)*
 
  상담 이력을 Gemini로 자동 요약·분류·품질평가하고, 우수/유사 상담사례 검색과 리포트를 제공하는 상담 관리 플랫폼.
 
@@ -128,7 +128,7 @@ What I care about:
 ---
 
 ### EON — EV Charging Platform
-  #### *2025.08–2025.10 · 9 weeks · 프로젝트 팀장, 백엔드 단독 (현직 FE·PM 각 1)*
+  #### *2025.08–2025.10 · 9 weeks · 백엔드 단독 개발*
 
 🏆 **정보통신기획평가원(IITP) 원장상 · 2025.12**
 
