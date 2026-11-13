@@ -128,7 +128,7 @@ What I care about:
 ---
 
 ### EON — EV Charging Platform
-  #### *2025.08–2025.10 · 9 weeks · 백엔드 단독 개발*
+  #### *2025.08–2025.10 · 9 weeks · (BE 1, FE 1, PM 1)*
 
 🏆 **정보통신기획평가원(IITP) 원장상 · 2025.12**
 
