@@ -4,188 +4,150 @@
   <img src="./typing-cursor.svg" width="500" height="160" alt="Backend Engineer / Kafka + Spring Batch / Elasticsearch + Data Pipelines">
 </p>
 
----
+<!-- Insights & Skills design based on github.com/rladntlr (originally github.com/rdme0) -->
+<a href="https://github.com/CoderGogh">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-metrics-dark.png">
+    <img src="assets/github-metrics-light.png" width="800" alt="CoderGogh의 GitHub Insights — 지난 1년 입체 기여 그래프, 언어 비율, PR 및 이슈 통계">
+  </picture>
+</a>
 
-## About
+## 🛠️ Skills
+<!-- Glass icons: scripts/render_skills.py --fetch --browser-channel chrome -->
 
-  **Hi there 👋🏻 I'm Haram Jeong — a backend developer.**<br>
- I focus on data-intensive systems — batch pipelines, event-driven messaging, and search infrastructure — and on keeping them reliable under load.
+### Languages
 
-What I care about:
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/java-glass-dark.png">
+    <img src="assets/skills/java-glass-light.png" width="84" alt="Java">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/python-glass-dark.png">
+    <img src="assets/skills/python-glass-light.png" width="84" alt="Python">
+  </picture>
+</p>
 
-- **Deliberate tech choices** — I reach for Kafka, Spring Batch, or caching when the problem calls for it, not by default.
-- **Ownership of the data flow** — I design the pipeline, recovery logic, and failure handling end to end, not just the feature.
-- **Reliability over assumption** — I trust a system through logs, tests, and observable behavior, not guesswork.
+### Backend
 
----
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/springboot-glass-dark.png">
+    <img src="assets/skills/springboot-glass-light.png" width="84" alt="Spring Boot">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/hibernate-glass-dark.png">
+    <img src="assets/skills/hibernate-glass-light.png" width="84" alt="JPA">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/fastapi-glass-dark.png">
+    <img src="assets/skills/fastapi-glass-light.png" width="84" alt="FastAPI">
+  </picture>
+</p>
 
-## Stack
+### DB & Messaging
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/mysql-glass-dark.png">
+    <img src="assets/skills/mysql-glass-light.png" width="84" alt="MySQL">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/postgresql-glass-dark.png">
+    <img src="assets/skills/postgresql-glass-light.png" width="84" alt="PostgreSQL">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/mongodb-glass-dark.png">
+    <img src="assets/skills/mongodb-glass-light.png" width="84" alt="MongoDB">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/redis-glass-dark.png">
+    <img src="assets/skills/redis-glass-light.png" width="84" alt="Redis">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/kafka-glass-dark.png">
+    <img src="assets/skills/kafka-glass-light.png" width="84" alt="Kafka">
+  </picture>
+</p>
+
+### AI & Search
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/elasticsearch-glass-dark.png">
+    <img src="assets/skills/elasticsearch-glass-light.png" width="84" alt="Elasticsearch">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/nori-glass-dark.png">
+    <img src="assets/skills/nori-glass-light.png" width="84" alt="Nori">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/gemini-glass-dark.png">
+    <img src="assets/skills/gemini-glass-light.png" width="84" alt="Gemini API">
+  </picture>
+</p>
+
+### Data Pipeline & Infra
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/airflow-glass-dark.png">
+    <img src="assets/skills/airflow-glass-light.png" width="84" alt="Airflow">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/githubactions-glass-dark.png">
+    <img src="assets/skills/githubactions-glass-light.png" width="84" alt="Actions">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/gitlab-glass-dark.png">
+    <img src="assets/skills/gitlab-glass-light.png" width="84" alt="GitLab">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/docker-glass-dark.png">
+    <img src="assets/skills/docker-glass-light.png" width="84" alt="Docker">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/aws-glass-dark.png">
+    <img src="assets/skills/aws-glass-light.png" width="84" alt="AWS">
+  </picture>
+</p>
+
+## 💾 Projects
 
 <table>
   <tr>
-    <td><b>Backend</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=java" />
-      <img src="https://skillicons.dev/icons?i=spring" />
-      <img src="https://skillicons.dev/icons?i=hibernate" />
+    <td width="50%" valign="top">
+      <h3>💸 <a href="https://github.com/CoderGogh/async-settlement-system">Async Settlement System</a></h3>
+      <p>📦 <b>일 500만 건 통신요금 정산</b></p>
+      <p>정산 배치와 알림 발송을 Kafka로 비동기 분리했습니다. 재처리 책임을 Producer로 옮겨 유실률 0%를 만들고, JPA→JDBC 전환과 Bulk Insert 튜닝으로 배치 시간을 48% 줄였습니다.</p>
+      <p><code>Spring Batch</code> <code>Kafka</code> <code>MySQL</code></p>
+      <p><a href="https://async-settlement-system.vercel.app">🚀 deploy</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎧 <a href="https://github.com/4Ureca">AI-based CRM</a></h3>
+      <p>🤖 <b>Gemini 상담 요약·분류·품질평가</b></p>
+      <p>카테고리별 프롬프트 분기와 모델 교체로 분류 정확도를 60%→85%로 올리고 비용을 80% 줄였습니다. Elasticsearch + Nori 튜닝으로 검색 속도를 80% 단축했습니다.</p>
+      <p><code>Spring Boot</code> <code>Elasticsearch</code> <code>Gemini API</code></p>
+      <p><a href="https://aicc-crm.vercel.app">🚀 deploy</a></p>
     </td>
   </tr>
   <tr>
-    <td><b>DB & Messaging</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=mysql" />
-      <img src="https://skillicons.dev/icons?i=mongodb" />
-      <img src="https://skillicons.dev/icons?i=postgres" />
-      <img src="https://skillicons.dev/icons?i=redis" />
-      <img src="https://skillicons.dev/icons?i=kafka" />
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/CoderGogh/Eon-BackEnd-Server">EON</a></h3>
+      <p>🏆 <b>정보통신기획평가원(IITP) 원장상</b></p>
+      <p>전기차 보조금과 위치 기반 충전소 정보를 하나로 통합했습니다. PostGIS 반경 매핑과 Redis 계층형 캐싱으로 응답 지연을 100s에서 10ms대로 줄였습니다.</p>
+      <p><code>FastAPI</code> <code>PostGIS</code> <code>Redis</code></p>
+      <p><a href="https://get-your-eon.vercel.app">🚀 deploy</a> · <a href="https://github.com/CoderGogh/Eon-FrontEnd-Server">frontend</a></p>
     </td>
-  </tr>
-  <tr>
-    <td><b>AI & Search</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=elasticsearch" />
-      <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" height="48" />
-      <img src="https://img.shields.io/badge/Nori-00A98F?style=for-the-badge" height="48" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Data Pipeline & CI</b></td>
-    <td>
-      <img src="https://cdn.simpleicons.org/apacheairflow/017CEE" alt="Apache Airflow" width="48" height="48" />
-      <img src="https://skillicons.dev/icons?i=python" />
-      <img src="https://skillicons.dev/icons?i=githubactions" />
-      <img src="https://skillicons.dev/icons?i=gitlab" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Infra</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=aws" />
-      <img src="https://skillicons.dev/icons?i=docker" />
+    <td width="50%" valign="top">
+      <h3>🗺️ <a href="https://github.com/CoderGogh/seoul-ev-data-platform">Seoul EV Siting Platform</a></h3>
+      <p>🔁 <b>Airflow DAG 7개 데이터 파이프라인</b></p>
+      <p>EV 등록현황과 실시간 도로소통정보를 주기별로 수집·정제해 행정동 단위로 결합하고, 충전소 우선 검토 지역을 선정합니다. 수집부터 품질 모니터링까지 직접 설계했습니다.</p>
+      <p><code>Airflow</code> <code>PostGIS</code> <code>GitLab CI</code></p>
+      <p><a href="https://seoul-ev-insight.vercel.app">🚀 deploy</a></p>
     </td>
   </tr>
 </table>
-
----
-
-## Main Projects
-
-### Async Settlement System — 정산
-  #### *2026.01 · 2 weeks ·  (BE 6)*
-
- 일 500만 건 규모의 통신요금 정산 배치와 알림 발송을 Kafka로 비동기 분리한 대용량 파이프라인.
-
-**핵심 기능**
-- 대용량 정산 배치 처리 (500만 건/일)
-- 이용자 맞춤형 알림 발송 (SMS · Email)
-- 실시간 배치 모니터링 대시보드
-
-**성과**
-- Kafka로 정산–알림 모듈 이벤트 기반 비동기 연동 → 모듈 결합도 감소
-- Kafka 재처리 책임을 Producer로 재설계 → 정산/메시지 유실률 0%
-- JPA→JDBC 전환 + Bulk Insert 튜닝 → 배치 처리시간 48% 단축, JVM 로컬 Map 캐시로 반복 DB 조회 제거
-
-<p>
-  <img src="https://skillicons.dev/icons?i=java" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=spring" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=kafka" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=mysql" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=docker" width="32" />
-</p>
-<br>
-<a href="https://async-settlement-system.vercel.app">🚀 deploy →</a><br>
-<a href="https://github.com/CoderGogh/async-settlement-system">🗂️ repo →</a>
-
----
-
-### AI-based CRM — 상담관리
-  #### *2026.02–2026.03 · 7 weeks · (BE 6 · FE 1)*
-
- 상담 이력을 Gemini로 자동 요약·분류·품질평가하고, 우수/유사 상담사례 검색과 리포트를 제공하는 상담 관리 플랫폼.
-
-**핵심 기능**
-- 상담 이력 AI 자동 요약·분류·품질평가, 우수 상담사례 선정
-- 전문/유사 상담사례 검색
-- 월/주/일별 리포트 + 관리자·상담사 대시보드
-
-**성과**
-- 카테고리별 프롬프트 분기 + 모델 교체(Gemini 2.5 Flash-Lite) → 분류 정확도 60%→85%, 호출 지연 1.2s→0.7s, 비용 80% 절감, 처리량 5.2배
-- Elasticsearch + Nori 튜닝 → MySQL Like 대비 검색 속도 80% 단축, 검색 정확도 70% 개선
-- CQRS 읽기/쓰기 분리 + DB 상태테이블 아웃박스 패턴 → ES 자원 경합 해소 · 분산 연동 안정성 확보
-
-<p>
-  <img src="https://skillicons.dev/icons?i=java" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=spring" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=elasticsearch" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=mongodb" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=redis" width="32" style="margin-right:10px" />
-  <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" height="26" />
-</p>
-<br>
-<a href="https://aicc-crm.vercel.app">🚀 deploy →</a><br>
-<a href="https://github.com/4Ureca">🗂️ repo →</a>
-
----
-
-### EON — EV Charging Platform
-  #### *2025.08–2025.10 · 9 weeks · (BE 1, FE 1, PM 1)*
-
-🏆 **정보통신기획평가원(IITP) 원장상 · 2025.12**
-
- 정부·성남시 전기차 보조금과 위치 기반 충전소 정보를 한 서비스로 통합해, 실구매가와 주변 충전소를 한 번에 확인.
-
-**핵심 기능**
-- 정부/성남시 전기차 보조금 조회
-- 위치 기반 충전소·충전기 정보 제공
-
-**성과**
-- PostGIS(ST_DWithin · ST_Distance) 반경 매핑 → 조회 사각지대 해소
-- 좌표 반올림 캐시 키 + Redis Sorted Set 계층형 캐싱 → 캐시 히트율 40%p 개선, KEPCO 공공 API 의존도 감소
-- Redis 계층형 캐싱 후 부하테스트 → RPS 0 → 50~60, 응답 지연 100s → 10ms대 (Locust)
-- Group By + ANY(:ids) 배치 쿼리 → N+1 쿼리 방지
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=fastapi" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=postgres" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=redis" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=docker" width="32" style="margin-right:10px" />
-  <img src="https://img.shields.io/badge/Poetry-60A5FA?style=for-the-badge&logo=poetry&logoColor=white" height="26" style="margin-right:6px" />
-  <img src="https://img.shields.io/badge/Alembic-DBAB09?style=for-the-badge" height="26" />
-</p>
-<br>
-<a href="https://get-your-eon.vercel.app">🚀 deploy →</a><br>
-<a href="https://github.com/CoderGogh/Eon-FrontEnd-Server">🗂️ frontend →</a><br>
-<a href="https://github.com/CoderGogh/Eon-BackEnd-Server">🗂️ backend →</a>
-
----
-
-### Seoul EV Siting Platform — 서울 전동화 입지 인사이트
-  #### *데이터 플랫폼 · 개인 설계·구현*
-
- 서울시 월간 전기차 등록현황과 실시간 도로소통정보를 각기 다른 주기로 수집·정제하고, 행정동 단위로 결합해 충전소 우선 검토 지역을 선정하는 Airflow 데이터 파이프라인.
-
-**핵심 기능**
-- 월간 EV 등록현황 + 실시간 도로소통정보 주기별 수집·정제
-- 행정동 단위 데이터 정합·결합
-- EV 대수·증가율 기반 충전소 우선 검토 지역 선정
-
-**성과**
-- Airflow DAG 7개로 수집 → 정제 → 마트 적재 → 품질 모니터링 → 리텐션 정리까지 파이프라인 구성
-- PostGIS 분석 DB와 Airflow 메타DB 분리 + Docker Compose 기반 서비스 구성
-- GitLab CI + 환경변수 기반 커넥션·시크릿 관리, R Shiny 대시보드(읽기 전용 role)로 결과 시각화
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=postgres" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=docker" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=gitlab" width="32" style="margin-right:6px" />
-  <img src="https://skillicons.dev/icons?i=r" width="32" style="margin-right:8px" />
-  <img src="https://cdn.simpleicons.org/apacheairflow/017CEE" alt="Apache Airflow" width="30" height="30" style="vertical-align:top" />
-</p>
-<br>
-<a href="https://seoul-ev-insight.vercel.app">🚀 deploy →</a><br>
-<a href="https://github.com/CoderGogh/seoul-ev-data-platform">🗂️ repo →</a>
 
 ---
 
