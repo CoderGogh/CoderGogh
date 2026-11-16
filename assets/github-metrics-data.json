@@ -5,11 +5,11 @@
     "stats": {
       "Java": 1034170,
       "CSS": 98314,
-      "HTML": 151159,
+      "HTML": 77321,
       "JavaScript": 179275,
       "Dockerfile": 6235,
       "Shell": 24106,
-      "Python": 574478,
+      "Python": 598902,
       "Mako": 704,
       "PLpgSQL": 223343,
       "Ruby": 599,
@@ -30,7 +30,7 @@
       "R": "#198CE7",
       "TypeScript": "#3178c6"
     },
-    "total": 2586771
+    "total": 2537357
   },
   "pr": {
     "count": 180,
@@ -2236,7 +2236,7 @@
       {
         "date": "2026-11-16",
         "weekday": 1,
-        "count": 7,
+        "count": 8,
         "level": 1
       }
     ],
@@ -2246,5 +2246,5 @@
     "average": "6.17",
     "max": 189
   },
-  "fetched_at": "2026-11-16T13:48:27+09:00"
+  "fetched_at": "2026-11-16T13:58:45+09:00"
 }
