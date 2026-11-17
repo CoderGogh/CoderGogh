@@ -9,7 +9,7 @@
       "JavaScript": 179275,
       "Dockerfile": 6235,
       "Shell": 24106,
-      "Python": 598902,
+      "Python": 637537,
       "Mako": 704,
       "PLpgSQL": 223343,
       "Ruby": 599,
@@ -30,7 +30,7 @@
       "R": "#198CE7",
       "TypeScript": "#3178c6"
     },
-    "total": 2537357
+    "total": 2575992
   },
   "pr": {
     "count": 180,
@@ -2238,13 +2238,19 @@
         "weekday": 1,
         "count": 8,
         "level": 1
+      },
+      {
+        "date": "2026-11-17",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
       }
     ],
     "streak": {
       "max": 18
     },
-    "average": "6.17",
+    "average": "6.16",
     "max": 189
   },
-  "fetched_at": "2026-11-16T13:58:45+09:00"
+  "fetched_at": "2026-11-17T12:51:57+09:00"
 }
