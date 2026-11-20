@@ -3,12 +3,12 @@
   "user": "CoderGogh",
   "languages": {
     "stats": {
-      "Java": 1034170,
+      "Java": 1038032,
       "CSS": 98314,
       "HTML": 77321,
       "JavaScript": 179275,
-      "Dockerfile": 6235,
-      "Shell": 24106,
+      "Dockerfile": 6959,
+      "Shell": 25093,
       "Python": 637537,
       "Mako": 704,
       "PLpgSQL": 223343,
@@ -30,16 +30,16 @@
       "R": "#198CE7",
       "TypeScript": "#3178c6"
     },
-    "total": 2575992
+    "total": 2581565
   },
   "pr": {
-    "count": 180,
-    "merged": 170
+    "count": 187,
+    "merged": 176
   },
   "issues": {
-    "count": 80,
-    "open": 24,
-    "closed": 56
+    "count": 112,
+    "open": 51,
+    "closed": 61
   },
   "calendar": {
     "days": [
@@ -2254,15 +2254,21 @@
       {
         "date": "2026-11-19",
         "weekday": 4,
-        "count": 0,
-        "level": 0
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-11-20",
+        "weekday": 5,
+        "count": 131,
+        "level": 4
       }
     ],
     "streak": {
       "max": 18
     },
-    "average": "6.12",
+    "average": "6.46",
     "max": 189
   },
-  "fetched_at": "2026-11-19T11:33:33+09:00"
+  "fetched_at": "2026-11-20T11:18:45+09:00"
 }
