@@ -46,48 +46,6 @@
   "calendar": {
     "days": [
       {
-        "date": "2025-11-16",
-        "weekday": 0,
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-11-17",
-        "weekday": 1,
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-11-18",
-        "weekday": 2,
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-11-19",
-        "weekday": 3,
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-11-20",
-        "weekday": 4,
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-11-21",
-        "weekday": 5,
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-11-22",
-        "weekday": 6,
-        "count": 0,
-        "level": 0
-      },
-      {
         "date": "2025-11-23",
         "weekday": 0,
         "count": 0,
@@ -2270,13 +2228,19 @@
         "weekday": 6,
         "count": 0,
         "level": 0
+      },
+      {
+        "date": "2026-11-22",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
       }
     ],
     "streak": {
       "max": 18
     },
-    "average": "7.60",
+    "average": "7.72",
     "max": 559
   },
-  "fetched_at": "2026-11-21T11:12:44+09:00"
+  "fetched_at": "2026-11-22T10:17:25+09:00"
 }
