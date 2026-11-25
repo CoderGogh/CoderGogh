@@ -2246,13 +2246,19 @@
         "weekday": 2,
         "count": 0,
         "level": 0
+      },
+      {
+        "date": "2026-11-25",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
       }
     ],
     "streak": {
       "max": 18
     },
-    "average": "7.68",
+    "average": "7.66",
     "max": 559
   },
-  "fetched_at": "2026-11-24T14:19:41+09:00"
+  "fetched_at": "2026-11-25T13:11:49+09:00"
 }
