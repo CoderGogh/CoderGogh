@@ -3,10 +3,10 @@
   "user": "CoderGogh",
   "languages": {
     "stats": {
-      "Java": 1204693,
+      "Java": 1258345,
       "CSS": 98314,
       "HTML": 77321,
-      "JavaScript": 179275,
+      "JavaScript": 188443,
       "Dockerfile": 6959,
       "Shell": 25093,
       "Python": 637537,
@@ -15,7 +15,7 @@
       "Ruby": 599,
       "R": 13205,
       "TypeScript": 281183,
-      "Lua": 2348
+      "Lua": 2794
     },
     "colors": {
       "Java": "#b07219",
@@ -32,16 +32,16 @@
       "TypeScript": "#3178c6",
       "Lua": "#000080"
     },
-    "total": 2750574
+    "total": 2813840
   },
   "pr": {
-    "count": 198,
-    "merged": 188
+    "count": 202,
+    "merged": 192
   },
   "issues": {
     "count": 112,
-    "open": 45,
-    "closed": 67
+    "open": 41,
+    "closed": 71
   },
   "calendar": {
     "days": [
@@ -871,7 +871,7 @@
         "date": "2026-04-09",
         "weekday": 4,
         "count": 66,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-04-10",
@@ -1837,7 +1837,7 @@
         "date": "2026-09-17",
         "weekday": 4,
         "count": 69,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-09-18",
@@ -2250,6 +2250,12 @@
       {
         "date": "2026-11-25",
         "weekday": 3,
+        "count": 143,
+        "level": 4
+      },
+      {
+        "date": "2026-11-26",
+        "weekday": 4,
         "count": 0,
         "level": 0
       }
@@ -2257,8 +2263,8 @@
     "streak": {
       "max": 18
     },
-    "average": "7.66",
+    "average": "8.03",
     "max": 559
   },
-  "fetched_at": "2026-11-25T13:11:49+09:00"
+  "fetched_at": "2026-11-26T12:39:10+09:00"
 }
