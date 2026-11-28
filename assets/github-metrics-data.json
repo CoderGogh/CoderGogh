@@ -3,7 +3,7 @@
   "user": "CoderGogh",
   "languages": {
     "stats": {
-      "Java": 1259158,
+      "Java": 1262239,
       "CSS": 98314,
       "HTML": 77321,
       "JavaScript": 188443,
@@ -32,7 +32,7 @@
       "TypeScript": "#3178c6",
       "Lua": "#000080"
     },
-    "total": 2814653
+    "total": 2817734
   },
   "pr": {
     "count": 202,
@@ -2262,6 +2262,12 @@
       {
         "date": "2026-11-27",
         "weekday": 5,
+        "count": 6,
+        "level": 1
+      },
+      {
+        "date": "2026-11-28",
+        "weekday": 6,
         "count": 0,
         "level": 0
       }
@@ -2272,5 +2278,5 @@
     "average": "8.01",
     "max": 559
   },
-  "fetched_at": "2026-11-27T12:38:50+09:00"
+  "fetched_at": "2026-11-28T12:19:33+09:00"
 }
